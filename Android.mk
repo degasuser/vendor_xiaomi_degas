@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),duchamp)
+ifeq ($(TARGET_DEVICE),degas)
 
 $(call add-radio-file-sha1-checked,radio/apusys.img,6fdbb79191216107d75ac3acfea8e71d53eaed20)
 $(call add-radio-file-sha1-checked,radio/audio_dsp.img,fc5c7b08ea630652469bb067e3784d21724df571)

@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "device/xiaomi/duchamp",
+        "device/xiaomi/degas",
         "hardware/mediatek",
         "hardware/xiaomi",
     ],
@@ -9552,7 +9552,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampgc16b3front_mipi_raw_IdxMgr",
+    name: "degasgc16b3front_mipi_raw_IdxMgr",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9560,7 +9560,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampgc16b3front_mipi_raw_IdxMgr.so",
+                "proprietary/vendor/lib64/mt6897/degasgc16b3front_mipi_raw_IdxMgr.so",
             ],
             shared_libs: [
                 "liblog",
@@ -9579,7 +9579,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampgc16b3front_mipi_raw_tuning",
+    name: "degasgc16b3front_mipi_raw_tuning",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9587,62 +9587,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampgc16b3front_mipi_raw_tuning.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmtkcam_ulog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6897",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "duchampov08d10ultra_mipi_raw_2_IdxMgr",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov08d10ultra_mipi_raw_2_IdxMgr.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6897",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "duchampov08d10ultra_mipi_raw_2_tuning",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov08d10ultra_mipi_raw_2_tuning.so",
+                "proprietary/vendor/lib64/mt6897/degasgc16b3front_mipi_raw_tuning.so",
             ],
             shared_libs: [
                 "liblog",
@@ -9662,7 +9607,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampov08d10ultra_mipi_raw_IdxMgr",
+    name: "degasov08d10ultra_mipi_raw_2_IdxMgr",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9670,7 +9615,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov08d10ultra_mipi_raw_IdxMgr.so",
+                "proprietary/vendor/lib64/mt6897/degasov08d10ultra_mipi_raw_2_IdxMgr.so",
             ],
             shared_libs: [
                 "liblog",
@@ -9689,7 +9634,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampov08d10ultra_mipi_raw_tuning",
+    name: "degasov08d10ultra_mipi_raw_2_tuning",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9697,62 +9642,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov08d10ultra_mipi_raw_tuning.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmtkcam_ulog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6897",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "duchampov16a1qfront_mipi_raw_2_IdxMgr",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov16a1qfront_mipi_raw_2_IdxMgr.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6897",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "duchampov16a1qfront_mipi_raw_2_tuning",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov16a1qfront_mipi_raw_2_tuning.so",
+                "proprietary/vendor/lib64/mt6897/degasov08d10ultra_mipi_raw_2_tuning.so",
             ],
             shared_libs: [
                 "liblog",
@@ -9772,7 +9662,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampov16a1qfront_mipi_raw_IdxMgr",
+    name: "degasov08d10ultra_mipi_raw_IdxMgr",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9780,7 +9670,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov16a1qfront_mipi_raw_IdxMgr.so",
+                "proprietary/vendor/lib64/mt6897/degasov08d10ultra_mipi_raw_IdxMgr.so",
             ],
             shared_libs: [
                 "liblog",
@@ -9799,7 +9689,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampov16a1qfront_mipi_raw_tuning",
+    name: "degasov08d10ultra_mipi_raw_tuning",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9807,62 +9697,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov16a1qfront_mipi_raw_tuning.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmtkcam_ulog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6897",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "duchampov64b40wide_mipi_raw_2_IdxMgr",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov64b40wide_mipi_raw_2_IdxMgr.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6897",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "duchampov64b40wide_mipi_raw_2_tuning",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov64b40wide_mipi_raw_2_tuning.so",
+                "proprietary/vendor/lib64/mt6897/degasov08d10ultra_mipi_raw_tuning.so",
             ],
             shared_libs: [
                 "liblog",
@@ -9882,7 +9717,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampov64b40wide_mipi_raw_IdxMgr",
+    name: "degasov16a1qfront_mipi_raw_2_IdxMgr",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9890,7 +9725,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov64b40wide_mipi_raw_IdxMgr.so",
+                "proprietary/vendor/lib64/mt6897/degasov16a1qfront_mipi_raw_2_IdxMgr.so",
             ],
             shared_libs: [
                 "liblog",
@@ -9909,7 +9744,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampov64b40wide_mipi_raw_tuning",
+    name: "degasov16a1qfront_mipi_raw_2_tuning",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9917,62 +9752,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampov64b40wide_mipi_raw_tuning.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmtkcam_ulog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6897",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "duchampsc202pcsmacro_mipi_raw_2_IdxMgr",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampsc202pcsmacro_mipi_raw_2_IdxMgr.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6897",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "duchampsc202pcsmacro_mipi_raw_2_tuning",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampsc202pcsmacro_mipi_raw_2_tuning.so",
+                "proprietary/vendor/lib64/mt6897/degasov16a1qfront_mipi_raw_2_tuning.so",
             ],
             shared_libs: [
                 "liblog",
@@ -9992,7 +9772,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampsc202pcsmacro_mipi_raw_IdxMgr",
+    name: "degasov16a1qfront_mipi_raw_IdxMgr",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -10000,7 +9780,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampsc202pcsmacro_mipi_raw_IdxMgr.so",
+                "proprietary/vendor/lib64/mt6897/degasov16a1qfront_mipi_raw_IdxMgr.so",
             ],
             shared_libs: [
                 "liblog",
@@ -10019,7 +9799,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "duchampsc202pcsmacro_mipi_raw_tuning",
+    name: "degasov16a1qfront_mipi_raw_tuning",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -10027,7 +9807,227 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/mt6897/duchampsc202pcsmacro_mipi_raw_tuning.so",
+                "proprietary/vendor/lib64/mt6897/degasov16a1qfront_mipi_raw_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtkcam_ulog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6897",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "degasov64b40wide_mipi_raw_2_IdxMgr",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6897/degasov64b40wide_mipi_raw_2_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6897",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "degasov64b40wide_mipi_raw_2_tuning",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6897/degasov64b40wide_mipi_raw_2_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtkcam_ulog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6897",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "degasov64b40wide_mipi_raw_IdxMgr",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6897/degasov64b40wide_mipi_raw_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6897",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "degasov64b40wide_mipi_raw_tuning",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6897/degasov64b40wide_mipi_raw_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtkcam_ulog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6897",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "degassc202pcsmacro_mipi_raw_2_IdxMgr",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6897/degassc202pcsmacro_mipi_raw_2_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6897",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "degassc202pcsmacro_mipi_raw_2_tuning",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6897/degassc202pcsmacro_mipi_raw_2_tuning.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libmtkcam_ulog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6897",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "degassc202pcsmacro_mipi_raw_IdxMgr",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6897/degassc202pcsmacro_mipi_raw_IdxMgr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6897",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "degassc202pcsmacro_mipi_raw_tuning",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6897/degassc202pcsmacro_mipi_raw_tuning.so",
             ],
             shared_libs: [
                 "liblog",
@@ -15145,15 +15145,15 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libmtkcam_ulog",
                 "libcameracustom.camera_calibration.core",
-                "duchampov64b40wide_mipi_raw_IdxMgr",
-                "duchampov64b40wide_mipi_raw_2_IdxMgr",
-                "duchampov16a1qfront_mipi_raw_IdxMgr",
-                "duchampov16a1qfront_mipi_raw_2_IdxMgr",
-                "duchampsc202pcsmacro_mipi_raw_IdxMgr",
-                "duchampsc202pcsmacro_mipi_raw_2_IdxMgr",
-                "duchampov08d10ultra_mipi_raw_IdxMgr",
-                "duchampov08d10ultra_mipi_raw_2_IdxMgr",
-                "duchampgc16b3front_mipi_raw_IdxMgr",
+                "degasov64b40wide_mipi_raw_IdxMgr",
+                "degasov64b40wide_mipi_raw_2_IdxMgr",
+                "degasov16a1qfront_mipi_raw_IdxMgr",
+                "degasov16a1qfront_mipi_raw_2_IdxMgr",
+                "degassc202pcsmacro_mipi_raw_IdxMgr",
+                "degassc202pcsmacro_mipi_raw_2_IdxMgr",
+                "degasov08d10ultra_mipi_raw_IdxMgr",
+                "degasov08d10ultra_mipi_raw_2_IdxMgr",
+                "degasgc16b3front_mipi_raw_IdxMgr",
                 "mtk000_mipi_raw_IdxMgr",
                 "libc++",
                 "libc",
@@ -15249,15 +15249,15 @@ cc_prebuilt_library_shared {
                 "libcameracustom.imgsensor.core",
                 "libcameracustom.camera_calibration.core",
                 "libcameracustom.cfg_setting.core",
-                "duchampov64b40wide_mipi_raw_IdxMgr",
-                "duchampov64b40wide_mipi_raw_2_IdxMgr",
-                "duchampov16a1qfront_mipi_raw_IdxMgr",
-                "duchampov16a1qfront_mipi_raw_2_IdxMgr",
-                "duchampsc202pcsmacro_mipi_raw_IdxMgr",
-                "duchampsc202pcsmacro_mipi_raw_2_IdxMgr",
-                "duchampov08d10ultra_mipi_raw_IdxMgr",
-                "duchampov08d10ultra_mipi_raw_2_IdxMgr",
-                "duchampgc16b3front_mipi_raw_IdxMgr",
+                "degasov64b40wide_mipi_raw_IdxMgr",
+                "degasov64b40wide_mipi_raw_2_IdxMgr",
+                "degasov16a1qfront_mipi_raw_IdxMgr",
+                "degasov16a1qfront_mipi_raw_2_IdxMgr",
+                "degassc202pcsmacro_mipi_raw_IdxMgr",
+                "degassc202pcsmacro_mipi_raw_2_IdxMgr",
+                "degasov08d10ultra_mipi_raw_IdxMgr",
+                "degasov08d10ultra_mipi_raw_2_IdxMgr",
+                "degasgc16b3front_mipi_raw_IdxMgr",
                 "mtk000_mipi_raw_IdxMgr",
                 "libmtkcam_modulehelper",
                 "libmtkcam.atmseventmgr",
@@ -31036,129 +31036,129 @@ install_symlink {
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampgc16b3front_mipi_raw_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasgc16b3front_mipi_raw_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampgc16b3front_mipi_raw/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampgc16b3front_mipi_raw/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasgc16b3front_mipi_raw/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasgc16b3front_mipi_raw/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampgc16b3front_mipi_raw_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasgc16b3front_mipi_raw_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampgc16b3front_mipi_raw/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampgc16b3front_mipi_raw/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasgc16b3front_mipi_raw/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasgc16b3front_mipi_raw/mt6897/ISP_param.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov08d10ultra_mipi_raw_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov08d10ultra_mipi_raw_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov08d10ultra_mipi_raw/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov08d10ultra_mipi_raw/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov08d10ultra_mipi_raw_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov08d10ultra_mipi_raw_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov08d10ultra_mipi_raw/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov08d10ultra_mipi_raw/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw/mt6897/ISP_param.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov08d10ultra_mipi_raw_2_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov08d10ultra_mipi_raw_2_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov08d10ultra_mipi_raw_2/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov08d10ultra_mipi_raw_2/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw_2/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw_2/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov08d10ultra_mipi_raw_2_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov08d10ultra_mipi_raw_2_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov08d10ultra_mipi_raw_2/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov08d10ultra_mipi_raw_2/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw_2/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw_2/mt6897/ISP_param.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov16a1qfront_mipi_raw_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov16a1qfront_mipi_raw_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov16a1qfront_mipi_raw/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov16a1qfront_mipi_raw/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov16a1qfront_mipi_raw_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov16a1qfront_mipi_raw_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov16a1qfront_mipi_raw/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov16a1qfront_mipi_raw/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw/mt6897/ISP_param.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov16a1qfront_mipi_raw_2_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov16a1qfront_mipi_raw_2_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov16a1qfront_mipi_raw_2/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov16a1qfront_mipi_raw_2/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw_2/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw_2/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov16a1qfront_mipi_raw_2_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov16a1qfront_mipi_raw_2_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov16a1qfront_mipi_raw_2/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov16a1qfront_mipi_raw_2/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw_2/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw_2/mt6897/ISP_param.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov64b40wide_mipi_raw_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov64b40wide_mipi_raw_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov64b40wide_mipi_raw/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov64b40wide_mipi_raw/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov64b40wide_mipi_raw_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov64b40wide_mipi_raw_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov64b40wide_mipi_raw/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov64b40wide_mipi_raw/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw/mt6897/ISP_param.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov64b40wide_mipi_raw_2_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov64b40wide_mipi_raw_2_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov64b40wide_mipi_raw_2/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov64b40wide_mipi_raw_2/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw_2/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw_2/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampov64b40wide_mipi_raw_2_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov64b40wide_mipi_raw_2_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov64b40wide_mipi_raw_2/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampov64b40wide_mipi_raw_2/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw_2/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw_2/mt6897/ISP_param.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampsc202pcsmacro_mipi_raw_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degassc202pcsmacro_mipi_raw_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_raw/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_raw/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampsc202pcsmacro_mipi_raw_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degassc202pcsmacro_mipi_raw_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_raw/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_raw/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw/mt6897/ISP_param.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampsc202pcsmacro_mipi_raw_2_ISP_mapping_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degassc202pcsmacro_mipi_raw_2_ISP_mapping_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_raw_2/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_raw_2/mt6897/ISP_mapping.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw_2/ISP_mapping.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw_2/mt6897/ISP_mapping.db",
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_duchampsc202pcsmacro_mipi_raw_2_ISP_param_db",
+    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degassc202pcsmacro_mipi_raw_2_ISP_param_db",
     device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_raw_2/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/duchampsc202pcsmacro_mipi_raw_2/mt6897/ISP_param.db",
+    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw_2/ISP_param.db",
+    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw_2/mt6897/ISP_param.db",
 }
 
 install_symlink {
@@ -31267,129 +31267,129 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampgc16b3front_mipi_raw_IdxMgr_so",
+    name: "vendor_lib64_degasgc16b3front_mipi_raw_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampgc16b3front_mipi_raw_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampgc16b3front_mipi_raw_IdxMgr.so",
+    installed_location: "lib64/degasgc16b3front_mipi_raw_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degasgc16b3front_mipi_raw_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampgc16b3front_mipi_raw_tuning_so",
+    name: "vendor_lib64_degasgc16b3front_mipi_raw_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampgc16b3front_mipi_raw_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampgc16b3front_mipi_raw_tuning.so",
+    installed_location: "lib64/degasgc16b3front_mipi_raw_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degasgc16b3front_mipi_raw_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov08d10ultra_mipi_raw_2_IdxMgr_so",
+    name: "vendor_lib64_degasov08d10ultra_mipi_raw_2_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov08d10ultra_mipi_raw_2_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov08d10ultra_mipi_raw_2_IdxMgr.so",
+    installed_location: "lib64/degasov08d10ultra_mipi_raw_2_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov08d10ultra_mipi_raw_2_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov08d10ultra_mipi_raw_2_tuning_so",
+    name: "vendor_lib64_degasov08d10ultra_mipi_raw_2_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov08d10ultra_mipi_raw_2_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov08d10ultra_mipi_raw_2_tuning.so",
+    installed_location: "lib64/degasov08d10ultra_mipi_raw_2_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov08d10ultra_mipi_raw_2_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov08d10ultra_mipi_raw_IdxMgr_so",
+    name: "vendor_lib64_degasov08d10ultra_mipi_raw_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov08d10ultra_mipi_raw_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov08d10ultra_mipi_raw_IdxMgr.so",
+    installed_location: "lib64/degasov08d10ultra_mipi_raw_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov08d10ultra_mipi_raw_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov08d10ultra_mipi_raw_tuning_so",
+    name: "vendor_lib64_degasov08d10ultra_mipi_raw_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov08d10ultra_mipi_raw_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov08d10ultra_mipi_raw_tuning.so",
+    installed_location: "lib64/degasov08d10ultra_mipi_raw_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov08d10ultra_mipi_raw_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov16a1qfront_mipi_raw_2_IdxMgr_so",
+    name: "vendor_lib64_degasov16a1qfront_mipi_raw_2_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov16a1qfront_mipi_raw_2_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov16a1qfront_mipi_raw_2_IdxMgr.so",
+    installed_location: "lib64/degasov16a1qfront_mipi_raw_2_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov16a1qfront_mipi_raw_2_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov16a1qfront_mipi_raw_2_tuning_so",
+    name: "vendor_lib64_degasov16a1qfront_mipi_raw_2_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov16a1qfront_mipi_raw_2_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov16a1qfront_mipi_raw_2_tuning.so",
+    installed_location: "lib64/degasov16a1qfront_mipi_raw_2_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov16a1qfront_mipi_raw_2_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov16a1qfront_mipi_raw_IdxMgr_so",
+    name: "vendor_lib64_degasov16a1qfront_mipi_raw_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov16a1qfront_mipi_raw_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov16a1qfront_mipi_raw_IdxMgr.so",
+    installed_location: "lib64/degasov16a1qfront_mipi_raw_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov16a1qfront_mipi_raw_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov16a1qfront_mipi_raw_tuning_so",
+    name: "vendor_lib64_degasov16a1qfront_mipi_raw_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov16a1qfront_mipi_raw_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov16a1qfront_mipi_raw_tuning.so",
+    installed_location: "lib64/degasov16a1qfront_mipi_raw_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov16a1qfront_mipi_raw_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov64b40wide_mipi_raw_2_IdxMgr_so",
+    name: "vendor_lib64_degasov64b40wide_mipi_raw_2_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov64b40wide_mipi_raw_2_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov64b40wide_mipi_raw_2_IdxMgr.so",
+    installed_location: "lib64/degasov64b40wide_mipi_raw_2_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov64b40wide_mipi_raw_2_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov64b40wide_mipi_raw_2_tuning_so",
+    name: "vendor_lib64_degasov64b40wide_mipi_raw_2_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov64b40wide_mipi_raw_2_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov64b40wide_mipi_raw_2_tuning.so",
+    installed_location: "lib64/degasov64b40wide_mipi_raw_2_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov64b40wide_mipi_raw_2_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov64b40wide_mipi_raw_IdxMgr_so",
+    name: "vendor_lib64_degasov64b40wide_mipi_raw_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov64b40wide_mipi_raw_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov64b40wide_mipi_raw_IdxMgr.so",
+    installed_location: "lib64/degasov64b40wide_mipi_raw_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov64b40wide_mipi_raw_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampov64b40wide_mipi_raw_tuning_so",
+    name: "vendor_lib64_degasov64b40wide_mipi_raw_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampov64b40wide_mipi_raw_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampov64b40wide_mipi_raw_tuning.so",
+    installed_location: "lib64/degasov64b40wide_mipi_raw_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degasov64b40wide_mipi_raw_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampsc202pcsmacro_mipi_raw_2_IdxMgr_so",
+    name: "vendor_lib64_degassc202pcsmacro_mipi_raw_2_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampsc202pcsmacro_mipi_raw_2_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampsc202pcsmacro_mipi_raw_2_IdxMgr.so",
+    installed_location: "lib64/degassc202pcsmacro_mipi_raw_2_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degassc202pcsmacro_mipi_raw_2_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampsc202pcsmacro_mipi_raw_2_tuning_so",
+    name: "vendor_lib64_degassc202pcsmacro_mipi_raw_2_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampsc202pcsmacro_mipi_raw_2_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampsc202pcsmacro_mipi_raw_2_tuning.so",
+    installed_location: "lib64/degassc202pcsmacro_mipi_raw_2_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degassc202pcsmacro_mipi_raw_2_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampsc202pcsmacro_mipi_raw_IdxMgr_so",
+    name: "vendor_lib64_degassc202pcsmacro_mipi_raw_IdxMgr_so",
     soc_specific: true,
-    installed_location: "lib64/duchampsc202pcsmacro_mipi_raw_IdxMgr.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampsc202pcsmacro_mipi_raw_IdxMgr.so",
+    installed_location: "lib64/degassc202pcsmacro_mipi_raw_IdxMgr.so",
+    symlink_target: "/vendor/lib64/mt6897/degassc202pcsmacro_mipi_raw_IdxMgr.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_duchampsc202pcsmacro_mipi_raw_tuning_so",
+    name: "vendor_lib64_degassc202pcsmacro_mipi_raw_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/duchampsc202pcsmacro_mipi_raw_tuning.so",
-    symlink_target: "/vendor/lib64/mt6897/duchampsc202pcsmacro_mipi_raw_tuning.so",
+    installed_location: "lib64/degassc202pcsmacro_mipi_raw_tuning.so",
+    symlink_target: "/vendor/lib64/mt6897/degassc202pcsmacro_mipi_raw_tuning.so",
 }
 
 install_symlink {
