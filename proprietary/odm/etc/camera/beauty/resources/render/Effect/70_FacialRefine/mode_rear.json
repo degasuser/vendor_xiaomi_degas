@@ -1,5 +1,12 @@
 {
 	"Type":"Effect",
+	"ExtraOption":
+	{
+		"GlobalFactorFlag":[200],
+		"GlobalMaleFactor":[0.5],
+		"GlobalFeMaleFactor":[1.0],
+		"UVMapping": false
+	},
 	"TrueSight":
 	[
 		{

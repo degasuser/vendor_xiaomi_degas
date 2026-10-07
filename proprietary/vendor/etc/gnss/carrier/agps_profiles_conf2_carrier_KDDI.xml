@@ -16,6 +16,7 @@
 
   <agps_setting
     ignore_si_for_e911="true"
+    emergency_ext_secs="60"
   />
 
   <gnss_setting
@@ -32,7 +33,7 @@
     msa_enable="true"
     qop_delay="5"
     force_otdoa_assist_req="true"
-    aosp_pos_mode_enable="true"
+    aosp_pos_mode_enable="false"
   />
 
 </mtk_agps_profiles>

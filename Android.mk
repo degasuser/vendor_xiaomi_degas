@@ -19,7 +19,7 @@ $(call add-radio-file-sha1-checked,radio/lk.img,690f3871a613545d40a78ce6f0e23725
 $(call add-radio-file-sha1-checked,radio/logo.img,9b0e0361f3c7a85bec4ff4d80df553de590d3ee8)
 $(call add-radio-file-sha1-checked,radio/mcf_ota.img,590fd47927cdb9d9572bd98e5cdc33b5f55350b4)
 $(call add-radio-file-sha1-checked,radio/mcupm.img,260707360b44cc52a4aed0b091fc57a5159b6442)
-$(call add-radio-file-sha1-checked,radio/modem.img,a7120fb5eb6a1ac3d819d3eed4d14cc67fc11770)
+$(call add-radio-file-sha1-checked,radio/modem.img,e47ef03eb33c82884c1c73c5f458a7294ab901d9)
 $(call add-radio-file-sha1-checked,radio/mvpu_algo.img,ce160658dd3d403cb990e20e9f87583a442a4f38)
 $(call add-radio-file-sha1-checked,radio/pi_img.img,d17303471295f4774d5c317aeb5e2f5bc9028e08)
 $(call add-radio-file-sha1-checked,radio/preloader_raw.img,c8c0116c47cacaa7cb7cafa3fbff3ee30507e171)

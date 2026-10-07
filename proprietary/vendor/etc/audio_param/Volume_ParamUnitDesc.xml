@@ -73,7 +73,7 @@
 		<Param name="ul_pga_gain_string" type="string"/>
 		<Param name="ul_gain_offset" type="int"/>
 		<Param name="ul_pga_gain_map_max" type="int"/>
-		<Param name="ul_hw_pga_max_idx" type="int"/>
+		<Param name="ul_hw_pga_max_idx" type="float"/>
 		<Param name="ul_pga_l_mixer_name" type="string"/>
 		<Param name="ul_pga_r_mixer_name" type="string"/>
 		<Param name="ul_pga_3_mixer_name" type="string"/>

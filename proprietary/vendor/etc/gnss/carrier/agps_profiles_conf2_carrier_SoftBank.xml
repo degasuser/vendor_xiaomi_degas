@@ -17,7 +17,10 @@
   />
 
   <agps_setting
+    agps_enable="true"
     ignore_si_for_e911="true"
+    ignore_emergency_ext_secs_from_framework="true"
+    emergency_ext_secs="300"
   />
 
   <gnss_setting
@@ -31,14 +34,18 @@
   />
 
   <up_setting
-    imsi_enable="true"
-    dedicated_apn_enable="false"
+    ca_enable="true"
+    dedicated_apn_enable="true"
     preferred_2g3g_cell_age="0"
     lpp_enable="false"
     allow_ni_for_gps_off="true"
     up_lppe_enable="false"
     esupl_apn_mode="3"
     ip_version_prefer="1"
+    imsi_enable="true"
+    up_si_disable="true"
+    up_ssr_enable="false"
+    privacy_override_mode="2"
   />
 
 </mtk_agps_profiles>

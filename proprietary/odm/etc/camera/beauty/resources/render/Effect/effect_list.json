@@ -1,47 +1,37 @@
 {
-	"TrueSightEffectList":
+	"Type":"EffectGroup",
+	"TrueSight":
 	[
 		{
-			"PartName":"全局颜色调整",
-			"Index":10,
-			"DefaultSubIndex":0,
-			"Array":
-			[
-				{
-					"Name":"不执行"
-				},	
-				{
-					"Name":"经典",
-					"Path":"10_ColorTone/mode_classical.json"
-				},
-				{
-					"Name":"质感",
-					"Path":"10_ColorTone/mode_native.json"
-				}		
-			]
-		},
-		{
 			"PartName":"DL相关调整",
-			"Index":15,
+			"Index":5,
 			"DefaultSubIndex":0,
 			"Array":
 			[
 				{
 					"Name":"不执行",
-					"Path":"15_DLRetouch/mode_none.json"
-				},	
-				{
-					"Name":"经典",
-					"Path":"15_DLRetouch/mode_classical.json"
+					"Path":"5_DLRetouch/mode_none.json"
 				},
 				{
-					"Name":"质感",
-					"Path":"15_DLRetouch/mode_native.json"
+					"Name":"前置",
+					"Path":"5_DLRetouch/mode_front.json"
+				},
+				{
+					"Name":"前置其他",
+					"Path":"5_DLRetouch/mode_front_other.json"
+				},
+				{
+					"Name":"视频",
+					"Path":"5_DLRetouch/mode_video.json"
 				},
 				{
 					"Name":"后置",
-					"Path":"15_DLRetouch/mode_rear.json"
-				}		
+					"Path":"5_DLRetouch/mode_rear.json"
+				},
+				{
+					"Name":"后置人像-莱卡生动",
+					"Path":"5_DLRetouch/mode_rear_portraiture_vivid.json"
+				}
 			]
 		},
 		{
@@ -52,22 +42,26 @@
 			[
 				{
 					"Name":"不执行"
-				},	
-				{
-					"Name":"经典",
-					"Path":"20_FaceRetouch/mode_classical.json"
 				},
 				{
-					"Name":"质感",
-					"Path":"20_FaceRetouch/mode_native.json"
+					"Name":"前置",
+					"Path":"20_FaceRetouch/mode_front.json"
+				},
+				{
+					"Name":"前置其他",
+					"Path":"20_FaceRetouch/mode_front_other.json"
 				},
 				{
 					"Name":"后置",
 					"Path":"20_FaceRetouch/mode_rear.json"
 				},
 				{
-					"Name":"轻量级",
-					"Path":"20_FaceRetouch/mode_light.json"
+					"Name":"后置人像(莱卡生动)",
+					"Path":"20_FaceRetouch/mode_rear_portraiture_vivid.json"
+				},
+				{
+					"Name":"视频",
+					"Path":"20_FaceRetouch/mode_video.json"
 				}
 			]
 		},
@@ -83,7 +77,15 @@
 				{
 					"Name":"基础(只亮眼)",
 					"Path":"30_BasicRetouch/mode_base.json"
-				}		
+				},
+				{
+					"Name":"基础(亮眼+去黑眼圈法令纹)",
+					"Path":"30_BasicRetouch/mode_base_all.json"
+				},
+				{
+					"Name":"后置基础(亮眼+牙齿美白)",
+					"Path":"30_BasicRetouch/mode_rear.json"
+				}			
 			]
 		},
 		{
@@ -96,17 +98,17 @@
 					"Name":"不执行"
 				},
 				{
-					"Name":"经典",
-					"Path":"40_FaceStereo/mode_classical.json"
+					"Name":"前置",
+					"Path":"40_FaceStereo/mode_front.json"
 				},
 				{
-					"Name":"质感",
-					"Path":"40_FaceStereo/mode_native.json"
+					"Name":"视频",
+					"Path":"40_FaceStereo/mode_video.json"
 				},
 				{
-					"Name":"后置",
+					"Name":"后置人像(含虚化)",
 					"Path":"40_FaceStereo/mode_rear.json"
-				}	
+				}
 			]
 		},
 		{
@@ -119,12 +121,16 @@
 					"Name":"不执行"
 				},
 				{
-					"Name":"经典",
-					"Path":"50_SkinTone/mode_classical.json"
+					"Name":"前置",
+					"Path":"50_SkinTone/mode_front.json"
 				},
 				{
-					"Name":"质感",
-					"Path":"50_SkinTone/mode_native.json"
+					"Name":"后置人像(暂无使用)",
+					"Path":"50_SkinTone/mode_rear.json"
+				},
+				{
+					"Name":"IQ",
+					"Path":"50_SkinTone/mode_IQ.json"
 				}			
 			]
 		},
@@ -136,15 +142,19 @@
 			[
 				{
 					"Name":"不执行"
-				},	
-				{
-					"Name":"经典妆容",
-					"Path":"60_Makeup/mode_classical.json"
 				},
 				{
-					"Name":"质感妆容",
-					"Path":"60_Makeup/mode_native.json"
-				}		
+					"Name":"前置补妆",
+					"Path":"60_Makeup/mode_front.json"
+				},
+				{
+					"Name":"视频妆容",
+					"Path":"60_Makeup/mode_video.json"
+				},
+				{
+					"Name":"后置",
+					"Path":"60_Makeup/mode_rear.json"
+				}	
 			]
 		},
 		{
@@ -155,26 +165,26 @@
 			[
 				{
 					"Name":"不执行"
-				},	
-				{
-					"Name":"经典",
-					"Path":"70_FacialRefine/mode_classical.json"
 				},
 				{
-					"Name":"质感",
-					"Path":"70_FacialRefine/mode_native.json"
+					"Name":"前置",
+					"Path":"70_FacialRefine/mode_front.json"
 				},
 				{
-					"Name":"其他前置",
-					"Path":"70_FacialRefine/mode_other_front.json"
-				},
-				{
-					"Name":"后置",
-					"Path":"70_FacialRefine/mode_rear.json"
+					"Name":"前置其他",
+					"Path":"70_FacialRefine/mode_front_other.json"
 				},
 				{
 					"Name":"视频模式",
 					"Path":"70_FacialRefine/mode_video.json"
+				},
+				{
+					"Name":"后置人像非虚化模式",
+					"Path":"70_FacialRefine/mode_rear.json"
+				},
+				{
+					"Name":"后置人像虚化模式",
+					"Path":"70_FacialRefine/mode_rear_portrait.json"
 				}
 			]
 		}

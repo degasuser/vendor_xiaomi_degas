@@ -1249,4 +1249,41 @@
       v1="46015"
     />
   </carrier_mapping>
+  <carrier_mapping name="Claro_Ecuador">
+    <mcc_mnc
+      v1="74001"
+    />
+  </carrier_mapping>
+  <carrier_mapping name="Claro_Guatemala">
+    <mcc_mnc
+      v1="70401"
+    />
+  </carrier_mapping>
+  <carrier_mapping name="Claro_Columbia">
+    <mcc_mnc
+      v1="732101"
+    />
+  </carrier_mapping>
+  <carrier_mapping name="Claro_Dominican">
+    <mcc_mnc
+      v1="37002"
+    />
+  </carrier_mapping>
+  <carrier_mapping name="Claro_Chile">
+    <mcc_mnc
+      v1="73003"
+    />
+  </carrier_mapping>
+  <carrier_mapping name="Movistar_Chile">
+    <mcc_mnc
+      v1="73002"
+    />
+  </carrier_mapping>
+  <!-- Ecuador and Mexico Movistar -->
+  <carrier_mapping name="Movistar_Ecuador">
+    <mcc_mnc
+      v1="74000"
+      v2="334030"
+    />
+  </carrier_mapping>
 </mtk_agps_profiles>

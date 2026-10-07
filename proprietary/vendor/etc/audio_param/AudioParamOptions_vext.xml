@@ -86,11 +86,9 @@
  <Param name="DPCM_DEEP_BUFFER" value="Playback_3" />
  <Param name="VOW_BARGE_IN_CAPTURE" value="Capture_9" />
  <Param name="MTK_AUDIO_GAME_VOICE_SUPPORT" value="yes" />
- <Param name="AUDIO_ULTRASOUND_24BIT_SUPPORT" value="yes" />
  <Param name="RCV_PATH_NO_ANA" value="yes" />
  <Param name="SPK_PATH_NO_ANA" value="yes" />
  <Param name="PLAYBACK_USE_24BITS_ONLY" value="yes" />
- <Param name="AUDIO_ULTRASOUND_96K_SUPPORT" value="no" />
  <Param name="PHONECALL_ACOUSTIC_SHOCK" value="no" />
  <Param name="CUST_XML_DIR" value="/data/vendor/audiohal/audio_param/" />
  <Param name="5_POLE_HS_SUPPORT" value="" />

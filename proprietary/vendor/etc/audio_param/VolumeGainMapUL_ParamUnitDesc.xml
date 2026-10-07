@@ -23,8 +23,8 @@
 	<ParamUnit>
 		<Param name="mic_idx_range_max" type="int"/>
 		<Param name="mic_idx_range_min" type="int"/>
-		<Param name="swagc_gain_map" type="short_array"/>
-		<Param name="swagc_gain_map_dmic" type="short_array"/>
-		<Param name="ul_pga_gain_map" type="short_array"/>
+		<Param name="swagc_gain_map" type="double_array"/>
+		<Param name="swagc_gain_map_dmic" type="double_array"/>
+		<Param name="ul_pga_gain_map" type="double_array"/>
 	</ParamUnit>
 </ParamUnitDesc>

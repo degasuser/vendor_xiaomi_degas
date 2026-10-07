@@ -1,6 +1,9 @@
 {
 	"Type":"Effect",
-	"RetouchFactorType": 0,
+	"ExtraOption":
+	{
+		"RetouchFactorType": 2
+	},
 	"TrueSight":
 	[
 		{

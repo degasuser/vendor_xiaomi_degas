@@ -6,6 +6,8 @@
 	"EnableLogSave": false,
 	"##DebugSavePath##": "Debug文件保存目录 /data/vendor/camera/truesight/",
 	"DebugSavePath": "/data/vendor/camera/truesight/",
+	"TestDefaultEffectPath": "render/Effect/effect_mode_front.json",
+	"TestDefaultConfigPath": "",
 	"##EnableLogLevel##": "打印0-7:kLOG_LEVEL_ALL=0, kLOG_LEVEL_VERBOSE=1,kLOG_LEVEL_DEBUG=2,kLOG_LEVEL_INFO=3,kLOG_LEVEL_WARN=4,kLOG_LEVEL_ERROR=5,kLOG_LEVEL_FATAL=6,kLOG_LEVEL_OFF=7,",
 	"EnableLogLevel": 5,
 	"##EnableLifeCycleLog##": "生命周期打印",
@@ -70,6 +72,14 @@
 				"EnableDirectBlend": false,
 				"##BlendStrategy##":"0:E2E256_WARP; 1:E2E256_CROP",
 				"BlendStrategy":0
+			},
+			"AcneTiny": {
+				"EnableInit": true,
+				"##HardwareAccelerationType##": "0 GPU; 1 NPU;",
+				"HardwareAccelerationType": 1
+			},
+			"E2EDimple": {
+				"EnableInit": true
 			}
 		}
 	},
@@ -78,6 +88,12 @@
 	"EnableFaceRetouchEnvLight": true,
 	"##EnableMakeupEnvLightDebug##": "是否开启debug环境光功能(环境光ISO(暗光减弱))",
 	"EnableMakeupEnvLightDebug": false,
-	"EnableMakeupEnvLight": true
+	"EnableMakeupEnvLight": true,
+	"##EnableGenderEmulate##": "是否开启debug瘦脸渐变",
+	"EnableGenderEmulate": {
+		"Enable": false,
+		"##EmulateFrame##": "30fps后调整性别",
+		"EmulateFrame": 100
+	}
 }
 

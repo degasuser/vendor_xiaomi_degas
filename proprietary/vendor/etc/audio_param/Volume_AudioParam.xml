@@ -69,7 +69,7 @@
 			<Param name="ul_pga_gain_string" value="0Db,6Db,12Db,18Db,24Db,30Db"/>
 			<Param name="ul_gain_offset" value="2"/>
 			<Param name="ul_pga_gain_map_max" value="30"/>
-			<Param name="ul_hw_pga_max_idx" value="6"/>
+			<Param name="ul_hw_pga_max_idx" value="6.000000"/>
 			<Param name="ul_pga_l_mixer_name" value="PGA1 Volume"/>
 			<Param name="ul_pga_r_mixer_name" value="PGA2 Volume"/>
 			<Param name="ul_pga_3_mixer_name" value="PGA3 Volume"/>
@@ -138,7 +138,7 @@
 			<Param name="ul_pga_gain_string" value="0Db,6Db,12Db,18Db,24Db,30Db"/>
 			<Param name="ul_gain_offset" value="2"/>
 			<Param name="ul_pga_gain_map_max" value="30"/>
-			<Param name="ul_hw_pga_max_idx" value="6"/>
+			<Param name="ul_hw_pga_max_idx" value="6.000000"/>
 			<Param name="ul_pga_l_mixer_name" value="PGA1 Volume"/>
 			<Param name="ul_pga_r_mixer_name" value="PGA2 Volume"/>
 			<Param name="ul_pga_3_mixer_name" value="PGA3 Volume"/>
@@ -206,7 +206,7 @@
 			<Param name="ul_pga_gain_string" value="0Db,6Db,12Db,18Db,24Db,30Db"/>
 			<Param name="ul_gain_offset" value="2"/>
 			<Param name="ul_pga_gain_map_max" value="30"/>
-			<Param name="ul_hw_pga_max_idx" value="6"/>
+			<Param name="ul_hw_pga_max_idx" value="6.000000"/>
 			<Param name="ul_pga_l_mixer_name" value="PGA1 Volume"/>
 			<Param name="ul_pga_r_mixer_name" value="PGA2 Volume"/>
 			<Param name="ul_pga_3_mixer_name" value="PGA3 Volume"/>
@@ -274,7 +274,7 @@
 			<Param name="ul_pga_gain_string" value="0Db,6Db,12Db,18Db,24Db,30Db"/>
 			<Param name="ul_gain_offset" value="2"/>
 			<Param name="ul_pga_gain_map_max" value="30"/>
-			<Param name="ul_hw_pga_max_idx" value="6"/>
+			<Param name="ul_hw_pga_max_idx" value="6.000000"/>
 			<Param name="ul_pga_l_mixer_name" value="PGA1 Volume"/>
 			<Param name="ul_pga_r_mixer_name" value="PGA2 Volume"/>
 			<Param name="ul_pga_3_mixer_name" value="PGA3 Volume"/>

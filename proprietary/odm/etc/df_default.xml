@@ -2,7 +2,7 @@
 <root>
     <color>
         <NodeTree>
-            <NodeName>unlimitedCT eyeCare TrueTone PaperMode sre AiDisp MtkNode miBrightness flatmode dither colortemp</NodeName>
+            <NodeName>unlimitedCT Smartfps eyeCare TrueTone PaperMode sre AiDisp MtkNode miBrightness flatmode dither colortemp</NodeName>
         </NodeTree>
         <unlimitedCT>
             <unlimitedCTParamName>strength default cold warm uiParamMin paramMax dimmingTime dimmingStep</unlimitedCTParamName>
@@ -15,6 +15,10 @@
             <dimmingTime>50</dimmingTime>
             <dimmingStep>20</dimmingStep>
         </unlimitedCT>
+        <Smartfps>
+            <SmartfpsParamName>lowFpsSupport</SmartfpsParamName>
+            <lowFpsSupport>1</lowFpsSupport>
+        </Smartfps>
         <eyeCare>
             <eyeCareParamName>EyeCareMinCCT EyeCareMaxCCT EyeCareStartLevel EyeCareMaxLevel EyeCareStep EyeCareCCTThreshold EyeCareRegModel EyeCareXCoeff0 EyeCareYCoeff0 EyeCareXCoeff1 EyeCareYCoeff1 EyeCareBlueThreshold EyeCareSrcBlueRatio EyeCareTargetBlueRatio EyeCareSatThreshold HueLeftBound HueRightBound HueCenter HueTopGain</eyeCareParamName>
             <EyeCareMinCCT>4500</EyeCareMinCCT>

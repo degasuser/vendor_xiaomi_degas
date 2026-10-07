@@ -5,6 +5,7 @@ libapuwarexrp_v2.mtk.so
 libapuwareutils.mtk.so
 libapuwareutils_v2.mtk.so
 libapuwarehmp.mtk.so
+libapuwareaiste.mtk.so
 libneuron_graph_delegate.mtk.so
 libneuronusdk_adapter.mtk.so
 libtflite_mtk.mtk.so

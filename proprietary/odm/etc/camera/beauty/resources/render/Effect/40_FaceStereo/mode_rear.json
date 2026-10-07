@@ -3,12 +3,12 @@
 	"TrueSight":
 	[
 		{
-			"ConfigurePath":"Effects/2_ModeRear/effect_preview.json",
+			"ConfigurePath":"Effects/3_ModeRear/effect_preview.json",
 			"Index":0,
 			"Mode":"Preview"
 		},
 		{
-			"ConfigurePath":"Effects/2_ModeRear/effect_capture.json",
+			"ConfigurePath":"Effects/3_ModeRear/effect_capture.json",
 			"Index":0,
 			"Mode":"Capture"
 		}

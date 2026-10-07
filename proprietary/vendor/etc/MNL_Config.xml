@@ -7,14 +7,14 @@
         <format> CH:-7 to 6 </format>
         <setting>-9.44,-8.72,-6.98,-1.27,-1.27,-4.72,-1.44,0,-0.45,-0.31,-1.12,-1.46,-2.97,-4.24</setting>
     </feature>
-    
+
     <feature>GGTO
         <version>1.0</version>
         <config>1</config>
         <format> GLONASS time offset, BEIDOU time offset, GALILEO time offset, NAVIC time offset, Unit: meter </format>
         <setting>12.00,1.38,3.02,19.82</setting>
     </feature>
-    
+
     <feature>DCB
         <version>1.0</version>
         <config>1</config>
@@ -23,14 +23,14 @@
         <format>L1C_DCB_GPS,L1C_DCB_QZSS,B1C_DCB_CNSS</format>
         <setting>0.90,0.86,0.98</setting>
     </feature>
-    
+
     <feature>L1Only
         <version>1.0</version>
-        <config>1</config>
+        <config>0</config>
         <format>L1 only: 1</format>
-        <setting>1</setting>
+        <setting>0</setting>
     </feature>
-    
+
     <feature>L5Test
         <version>1.0</version>
         <config>0</config>
@@ -54,9 +54,9 @@
 
     <feature>CAIC
         <version>1.0</version>
-        <config>0</config>
+        <config>1</config>
         <format>L1 CAIC FrequencyHz</format>
-        <setting>1560000000</setting>
+        <setting>1577001500</setting>
         <format>L5 CAIC FrequencyHz</format>
         <setting>1170000000</setting>
     </feature>
@@ -102,14 +102,14 @@
         <format>featureOption,requestInterval,sizeOfWindow,syncBackNum(optional)</format>
         <setting>1,5000,1500,0</setting>
     </feature>
-    
+
     <feature>Time_Source
         <version>1.0</version>
         <config>1</config>
         <format>RAT,SIB</format>
        <setting>50,6</setting>
     </feature>
-   
+
     <feature>PSO
         <version>1.0</version>
         <config>0</config>
@@ -122,5 +122,19 @@
         <config>1</config>
         <format>singlebandTracking,multibandTracking,singlebandAcquisition,multibandAcquisition</format>
         <setting>51.9,100.2,58.5,106.7</setting>
+    </feature>
+
+    <feature>MDdisableBDS
+        <version>1.0</version>
+        <config>1</config>
+        <format>Disable:0,Enable:1</format>
+        <setting>1</setting>
+    </feature>
+
+    <feature>TTFFAcc
+        <version>1.0</version>
+        <config>1</config>
+        <format>Disable:0,Enable:1</format>
+        <setting>0</setting>
     </feature>
 </mnl_config>

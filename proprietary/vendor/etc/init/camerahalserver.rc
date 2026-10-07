@@ -1,4 +1,4 @@
-on init
+on post-fs-data
     chmod 666 /proc/ppb/ppb_camera_power
 
 service camerahalserver /vendor/bin/hw/camerahalserver
