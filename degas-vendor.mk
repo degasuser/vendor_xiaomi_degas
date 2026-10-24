@@ -769,12 +769,15 @@ PRODUCT_PACKAGES += \
     libDefaultFpsActor \
     libFrameRecord \
     libHISCppAlgos \
+    libHardwareBacklightcore \
+    libIntelligentFocus \
     libJpgEncPipe \
     libMiMotion \
     libMiPhotoFilter \
     libMtkSpeechEnh \
     libNoFpsActor \
     libOpenCL \
+    libSEGModel \
     libSQLiteModule_VER_ALL \
     libXMFaceFocus \
     lib_iir \
@@ -835,6 +838,7 @@ PRODUCT_PACKAGES += \
     libcamalgo.warp \
     libcamera_scene \
     libcameraloadcalibrationfiles \
+    libcameraopt \
     libcameraplatforminfoxiaomi \
     libcamlog \
     libcarrierconfig \
@@ -853,19 +857,27 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_common-v34 \
     libcodec2_vndk-v34 \
     libcodec2_vpp_fa_plugin \
+    libcodec2_vpp_frc_plugin \
     libcodec2_vpp_mi_plugin \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
+    libcom.xiaomi.attribute \
     libcom.xiaomi.containerutils \
     libcom.xiaomi.debug \
+    libcom.xiaomi.ecoenginemonitor \
     libcom.xiaomi.eventcallback \
     libcom.xiaomi.grallocutils \
+    libcom.xiaomi.hwadapter.decoupleutil \
+    libcom.xiaomi.hwadapter.postprocinterface \
     libcom.xiaomi.metadatautils \
+    libcom.xiaomi.mivihal.cpupolicy \
     libcom.xiaomi.mizone.cpupolicy \
     libcom.xiaomi.mizone.decoupleutil \
     libcom.xiaomi.mizone.postprocinterface \
     libcom.xiaomi.mizone \
     libcom.xiaomi.pluginutils \
+    libcom.xiaomi.sensorpolicy \
+    libcom.xiaomi.signaltrigger \
     libcomposer_ext \
     libconnfem \
     libcustom_nvram \
@@ -909,6 +921,7 @@ PRODUCT_PACKAGES += \
     libmbrainSDKv \
     libmiSAT \
     libmiSATTranslate \
+    libmialgo \
     libmialgo_ai_vision \
     libmialgo_sd \
     libmialgo_video_seg_depth \
@@ -916,6 +929,10 @@ PRODUCT_PACKAGES += \
     libmialgoenginecustom \
     libmibokeh_mt6873 \
     libmicamera_adapter \
+    libmicamera_aidl_device \
+    libmicamera_aidl_provider \
+    libmicamera_aidl_utils \
+    libmicamera_hal_core \
     libmicamjson \
     libmigpese@2.0 \
     libmipc \
@@ -940,8 +957,12 @@ PRODUCT_PACKAGES += \
     libmtkcam_fdWarpConvert \
     libmtkcam_fdsan \
     libmtkcam_fdsan_wrapper \
+    libmtkcam_feature_utils \
     libmtkcam_grallocutils_aidlv1helper \
+    libmtkcam_hal_custom_state \
+    libmtkcam_hal_custom_utils \
     libmtkcam_perfctrl_wrapper \
+    libmtkcam_resourcedecision_custom \
     libmtkconfig \
     libmtkconfigutils \
     libmtkcutils \
@@ -949,6 +970,7 @@ PRODUCT_PACKAGES += \
     libmtkisp_metadata_v2 \
     libmtkisp_metadata_v3 \
     libmtklimiter_vendor \
+    libmtkltm \
     libmtkmipc-ril \
     libmtknetcap \
     libmtknetutils \
@@ -1000,6 +1022,9 @@ PRODUCT_PACKAGES += \
     libnvram_sec \
     libnxp_extamp_intf \
     liboemcrypto \
+    libofflinedebugdata \
+    libopencv_core \
+    libopencv_imgproc \
     libpqframework \
     libpqhdrmetaparser \
     libpqsharememory \
@@ -1419,6 +1444,7 @@ PRODUCT_PACKAGES += \
     mtk000_mipi_raw_tuning \
     mtk_lbs_service-impl \
     vendor.mediatek.hardware.apuware.apusys-V2-ndk \
+    vendor.mediatek.hardware.apuware.apusys-V3-ndk \
     vendor.mediatek.hardware.apuware.utils-V1-ndk-vendor \
     vendor.mediatek.hardware.apuware.utils@2.0-vendor \
     vendor.mediatek.hardware.audio@8.1 \
@@ -1426,6 +1452,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.aovservice-V2-ndk \
+    vendor.mediatek.hardware.camera.aovservice-V3-ndk \
     vendor.mediatek.hardware.camera.atms-V1-ndk \
     vendor.mediatek.hardware.camera.bgservice-V1-ndk \
     vendor.mediatek.hardware.camera.ccap@1.0 \
@@ -1439,6 +1466,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.gnss-V1-ndk \
     vendor.mediatek.hardware.lbs-V1-ndk \
     vendor.mediatek.hardware.mbrain-V1-ndk \
+    vendor.mediatek.hardware.mbrain-V2-ndk \
     vendor.mediatek.hardware.mmagent-V1-ndk \
     vendor.mediatek.hardware.mmlpq-V3-ndk \
     vendor.mediatek.hardware.mtkpower-V1-ndk \
@@ -1483,12 +1511,16 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq_aidl-V2-ndk \
     vendor.mediatek.hardware.pq_aidl-V4-ndk \
     vendor.mediatek.hardware.pq_aidl-V6-ndk \
+    vendor.mediatek.hardware.pq_aidl-V7-ndk \
     vendor.mediatek.hardware.videotelephony-V1-ndk-vendor \
     vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk \
+    vendor.xiaomi.hardware.aidlbgservice-V1-impl \
+    vendor.xiaomi.hardware.aidlbgservice-V1-ndk \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.mfidoca-V1-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk \
+    vendor.xiaomi.hardware.quickcamera-V1-ndk_platform \
     vendor.xiaomi.sensor.citsensorservice-V1-ndk \
     libapu_mdw_ext.mtk \
     libapuwareapusys.mtk \
@@ -1593,6 +1625,7 @@ PRODUCT_PACKAGES += \
     libArcNetMtk \
     libMiDispDevManager \
     libTrueSight \
+    libadaptivehdr \
     libalAILDC \
     libalAI_Seg \
     libalAI_Seg_CFR \
@@ -1602,10 +1635,13 @@ PRODUCT_PACKAGES += \
     libalNN_engine \
     libalNN_gpu \
     libalhLDC \
+    libanc_dc_base \
+    libarc.ion \
     libarcsoft_bokeh_high_dynamic_range \
     libarcsoft_high_dynamic_range \
     libarcsoft_low_light_hdr \
     libarcsoft_mf_superresolution \
+    libarcsoft_raw_sr \
     libarcsoft_sn_mtk_apu \
     libarcsoft_super_night_raw \
     libarcsoft_super_night_raw_front \
@@ -1623,14 +1659,18 @@ PRODUCT_PACKAGES += \
     libmiXmlParser \
     libmi_dspp \
     libmiai_deblur \
+    libmiaio_aio_seg \
     libmialgo_aio_seg \
     libmialgo_depth \
+    libmialgo_ds_nn \
     libmialgo_ie_capture \
     libmialgo_utils \
     libmiocr \
     libmiphone_capture_bokeh \
     libmiphone_capture_depth \
+    libmiphone_capture_mdbokeh \
     libmlipay_mitee \
+    libmorpho_Depurple \
     libmt_mitee \
     libomp \
     libpaperMode \
@@ -1639,19 +1679,17 @@ PRODUCT_PACKAGES += \
     libsre \
     libtruetone \
     libvideomode \
+    libwa_widelens_undistort \
     com.google.android.widevine.nonupdatable \
     HotwordEnrollmentXGoogleRISCV_WIDEBAND \
     HotwordEnrollmentYGoogleRISCV_WIDEBAND \
     ImsService \
     MtkGbaService \
     MtkTelephonyAssist \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
+    mediatek-ims-base \
     mediatek-ims-extension-plugin \
+    mediatek-telephony-base \
     android.hardware.gatekeeper-service.mitee.xml \
     android.hardware.identity@5.0-service.mitee.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
@@ -2138,8 +2176,5 @@ PRODUCT_PACKAGES += \
     vendor_lib64_mtk000_mipi_raw_tuning_so
 
 PRODUCT_BOOT_JARS += \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
+    system_ext:mediatek-ims-base \
+    system_ext:mediatek-telephony-base
