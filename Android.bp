@@ -32648,27 +32648,6 @@ install_symlink {
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_ISP_info_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/ISP_info.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db",
-}
-
-install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db",
-}
-
-install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db",
-}
-
-install_symlink {
     name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_default_sensor_ISP_mapping_db",
     device_specific: true,
     installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db",
@@ -32680,20 +32659,6 @@ install_symlink {
     device_specific: true,
     installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db",
     symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_param.db",
-}
-
-install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/ISP_mapping.db",
-}
-
-install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/ISP_param.db",
 }
 
 install_symlink {
@@ -32711,20 +32676,6 @@ install_symlink {
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/ISP_mapping.db",
-}
-
-install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/ISP_param.db",
-}
-
-install_symlink {
     name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov13b10ultra_mipi_raw_ISP_mapping_db",
     device_specific: true,
     installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/ISP_mapping.db",
@@ -32739,20 +32690,6 @@ install_symlink {
 }
 
 install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/ISP_mapping.db",
-}
-
-install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/ISP_param.db",
-}
-
-install_symlink {
     name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kjn1tele_mipi_raw_ISP_mapping_db",
     device_specific: true,
     installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/ISP_mapping.db",
@@ -32764,20 +32701,6 @@ install_symlink {
     device_specific: true,
     installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/ISP_param.db",
     symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_param.db",
-}
-
-install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_mapping.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/ISP_mapping.db",
-}
-
-install_symlink {
-    name: "odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db",
-    device_specific: true,
-    installed_location: "bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_param.db",
-    symlink_target: "/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/ISP_param.db",
 }
 
 install_symlink {

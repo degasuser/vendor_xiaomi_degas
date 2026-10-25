@@ -20,25 +20,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6897/ParameterDB_pipeline.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6897/ParameterDB_pipeline.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6897/ParameterDB_tone.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6897/ParameterDB_tone.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_mapping.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/ISP_param.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/mt6897/ISP_mapping.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/ISP_param.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/mt6897/ISP_mapping.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/ISP_param.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_mapping.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/ISP_param.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_mapping.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_param.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db \
@@ -1784,25 +1773,14 @@ PRODUCT_PACKAGES += \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_pd_ParameterDB_pd_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_pipeline_ParameterDB_pipeline_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tone_ParameterDB_tone_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_ISP_info_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_default_sensor_ISP_mapping_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_default_sensor_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasimx906wide_mipi_raw_ISP_mapping_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasimx906wide_mipi_raw_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov13b10ultra_mipi_raw_ISP_mapping_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov13b10ultra_mipi_raw_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kjn1tele_mipi_raw_ISP_mapping_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kjn1tele_mipi_raw_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_param_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kkd1front_mipi_raw_ISP_mapping_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kkd1front_mipi_raw_ISP_param_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_info_db \
