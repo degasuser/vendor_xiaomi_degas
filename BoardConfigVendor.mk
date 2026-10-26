@@ -13,13 +13,11 @@ AB_OTA_PARTITIONS += \
     gpueb \
     gz \
     lk \
-    logo \
     mcf_ota \
     mcupm \
     modem \
     mvpu_algo \
     pi_img \
-    preloader_raw \
     scp \
     spmfw \
     sspm \

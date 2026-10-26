@@ -20,24 +20,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6897/ParameterDB_pipeline.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6897/ParameterDB_pipeline.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6897/ParameterDB_tone.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6897/ParameterDB_tone.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasgc16b3front_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasgc16b3front_mipi_raw/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasgc16b3front_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasgc16b3front_mipi_raw/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw_2/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw_2/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw_2/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov08d10ultra_mipi_raw_2/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw_2/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw_2/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw_2/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov16a1qfront_mipi_raw_2/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw_2/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw_2/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw_2/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov64b40wide_mipi_raw_2/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw/mt6897/ISP_param.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw_2/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw_2/mt6897/ISP_mapping.db \
-    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw_2/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degassc202pcsmacro_mipi_raw_2/mt6897/ISP_param.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_mapping.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6897/ISP_param.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/mt6897/ISP_mapping.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasimx906wide_mipi_raw/mt6897/ISP_param.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/mt6897/ISP_mapping.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degasov13b10ultra_mipi_raw/mt6897/ISP_param.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_mapping.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kjn1tele_mipi_raw/mt6897/ISP_param.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_mapping.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_mapping.db \
+    vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_param.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6897/ISP_info.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6897/ISP_info.db \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/CFR_para_UW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW.bin \
@@ -769,12 +761,15 @@ PRODUCT_PACKAGES += \
     libDefaultFpsActor \
     libFrameRecord \
     libHISCppAlgos \
+    libHardwareBacklightcore \
+    libIntelligentFocus \
     libJpgEncPipe \
     libMiMotion \
     libMiPhotoFilter \
     libMtkSpeechEnh \
     libNoFpsActor \
     libOpenCL \
+    libSEGModel \
     libSQLiteModule_VER_ALL \
     libXMFaceFocus \
     lib_iir \
@@ -835,6 +830,7 @@ PRODUCT_PACKAGES += \
     libcamalgo.warp \
     libcamera_scene \
     libcameraloadcalibrationfiles \
+    libcameraopt \
     libcameraplatforminfoxiaomi \
     libcamlog \
     libcarrierconfig \
@@ -853,19 +849,27 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_common-v34 \
     libcodec2_vndk-v34 \
     libcodec2_vpp_fa_plugin \
+    libcodec2_vpp_frc_plugin \
     libcodec2_vpp_mi_plugin \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
+    libcom.xiaomi.attribute \
     libcom.xiaomi.containerutils \
     libcom.xiaomi.debug \
+    libcom.xiaomi.ecoenginemonitor \
     libcom.xiaomi.eventcallback \
     libcom.xiaomi.grallocutils \
+    libcom.xiaomi.hwadapter.decoupleutil \
+    libcom.xiaomi.hwadapter.postprocinterface \
     libcom.xiaomi.metadatautils \
+    libcom.xiaomi.mivihal.cpupolicy \
     libcom.xiaomi.mizone.cpupolicy \
     libcom.xiaomi.mizone.decoupleutil \
     libcom.xiaomi.mizone.postprocinterface \
     libcom.xiaomi.mizone \
     libcom.xiaomi.pluginutils \
+    libcom.xiaomi.sensorpolicy \
+    libcom.xiaomi.signaltrigger \
     libcomposer_ext \
     libconnfem \
     libcustom_nvram \
@@ -909,6 +913,7 @@ PRODUCT_PACKAGES += \
     libmbrainSDKv \
     libmiSAT \
     libmiSATTranslate \
+    libmialgo \
     libmialgo_ai_vision \
     libmialgo_sd \
     libmialgo_video_seg_depth \
@@ -916,6 +921,10 @@ PRODUCT_PACKAGES += \
     libmialgoenginecustom \
     libmibokeh_mt6873 \
     libmicamera_adapter \
+    libmicamera_aidl_device \
+    libmicamera_aidl_provider \
+    libmicamera_aidl_utils \
+    libmicamera_hal_core \
     libmicamjson \
     libmigpese@2.0 \
     libmipc \
@@ -940,8 +949,12 @@ PRODUCT_PACKAGES += \
     libmtkcam_fdWarpConvert \
     libmtkcam_fdsan \
     libmtkcam_fdsan_wrapper \
+    libmtkcam_feature_utils \
     libmtkcam_grallocutils_aidlv1helper \
+    libmtkcam_hal_custom_state \
+    libmtkcam_hal_custom_utils \
     libmtkcam_perfctrl_wrapper \
+    libmtkcam_resourcedecision_custom \
     libmtkconfig \
     libmtkconfigutils \
     libmtkcutils \
@@ -949,6 +962,7 @@ PRODUCT_PACKAGES += \
     libmtkisp_metadata_v2 \
     libmtkisp_metadata_v3 \
     libmtklimiter_vendor \
+    libmtkltm \
     libmtkmipc-ril \
     libmtknetcap \
     libmtknetutils \
@@ -1000,6 +1014,9 @@ PRODUCT_PACKAGES += \
     libnvram_sec \
     libnxp_extamp_intf \
     liboemcrypto \
+    libofflinedebugdata \
+    libopencv_core \
+    libopencv_imgproc \
     libpqframework \
     libpqhdrmetaparser \
     libpqsharememory \
@@ -1047,24 +1064,34 @@ PRODUCT_PACKAGES += \
     libxlog \
     arm.graphics-V4-ndk \
     arm.mali.platform-V2-ndk \
-    degasgc16b3front_mipi_raw_IdxMgr \
-    degasgc16b3front_mipi_raw_tuning \
-    degasov08d10ultra_mipi_raw_2_IdxMgr \
-    degasov08d10ultra_mipi_raw_2_tuning \
-    degasov08d10ultra_mipi_raw_IdxMgr \
-    degasov08d10ultra_mipi_raw_tuning \
-    degasov16a1qfront_mipi_raw_2_IdxMgr \
-    degasov16a1qfront_mipi_raw_2_tuning \
-    degasov16a1qfront_mipi_raw_IdxMgr \
-    degasov16a1qfront_mipi_raw_tuning \
-    degasov64b40wide_mipi_raw_2_IdxMgr \
-    degasov64b40wide_mipi_raw_2_tuning \
-    degasov64b40wide_mipi_raw_IdxMgr \
-    degasov64b40wide_mipi_raw_tuning \
-    degassc202pcsmacro_mipi_raw_2_IdxMgr \
-    degassc202pcsmacro_mipi_raw_2_tuning \
-    degassc202pcsmacro_mipi_raw_IdxMgr \
-    degassc202pcsmacro_mipi_raw_tuning \
+    degasimx906wide_mipi_raw_IdxMgr \
+    degasimx906wide_mipi_raw_tuning \
+    degasov13b10ultra_mipi_raw_IdxMgr \
+    degasov13b10ultra_mipi_raw_tuning \
+    degass5kjn1tele_mipi_raw_IdxMgr \
+    degass5kjn1tele_mipi_raw_tuning \
+    degass5kkd1front_mipi_raw_IdxMgr \
+    degass5kkd1front_mipi_raw_tuning \
+    duchampgc16b3front_mipi_raw_IdxMgr \
+    duchampgc16b3front_mipi_raw_tuning \
+    duchampov08d10ultra_mipi_raw_2_IdxMgr \
+    duchampov08d10ultra_mipi_raw_2_tuning \
+    duchampov08d10ultra_mipi_raw_IdxMgr \
+    duchampov08d10ultra_mipi_raw_tuning \
+    duchampov16a1qfront_mipi_raw_2_IdxMgr \
+    duchampov16a1qfront_mipi_raw_2_tuning \
+    duchampov16a1qfront_mipi_raw_IdxMgr \
+    duchampov16a1qfront_mipi_raw_tuning \
+    duchampov50ewide_mipi_raw_IdxMgr \
+    duchampov50ewide_mipi_raw_tuning \
+    duchampov64b40wide_mipi_raw_2_IdxMgr \
+    duchampov64b40wide_mipi_raw_2_tuning \
+    duchampov64b40wide_mipi_raw_IdxMgr \
+    duchampov64b40wide_mipi_raw_tuning \
+    duchampsc202pcsmacro_mipi_raw_2_IdxMgr \
+    duchampsc202pcsmacro_mipi_raw_2_tuning \
+    duchampsc202pcsmacro_mipi_raw_IdxMgr \
+    duchampsc202pcsmacro_mipi_raw_tuning \
     lib3a.ae \
     lib3a.ae.stat \
     lib3a.af.assist.models1d \
@@ -1419,6 +1446,7 @@ PRODUCT_PACKAGES += \
     mtk000_mipi_raw_tuning \
     mtk_lbs_service-impl \
     vendor.mediatek.hardware.apuware.apusys-V2-ndk \
+    vendor.mediatek.hardware.apuware.apusys-V3-ndk \
     vendor.mediatek.hardware.apuware.utils-V1-ndk-vendor \
     vendor.mediatek.hardware.apuware.utils@2.0-vendor \
     vendor.mediatek.hardware.audio@8.1 \
@@ -1426,6 +1454,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.aovservice-V2-ndk \
+    vendor.mediatek.hardware.camera.aovservice-V3-ndk \
     vendor.mediatek.hardware.camera.atms-V1-ndk \
     vendor.mediatek.hardware.camera.bgservice-V1-ndk \
     vendor.mediatek.hardware.camera.ccap@1.0 \
@@ -1439,6 +1468,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.gnss-V1-ndk \
     vendor.mediatek.hardware.lbs-V1-ndk \
     vendor.mediatek.hardware.mbrain-V1-ndk \
+    vendor.mediatek.hardware.mbrain-V2-ndk \
     vendor.mediatek.hardware.mmagent-V1-ndk \
     vendor.mediatek.hardware.mmlpq-V3-ndk \
     vendor.mediatek.hardware.mtkpower-V1-ndk \
@@ -1483,12 +1513,16 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq_aidl-V2-ndk \
     vendor.mediatek.hardware.pq_aidl-V4-ndk \
     vendor.mediatek.hardware.pq_aidl-V6-ndk \
+    vendor.mediatek.hardware.pq_aidl-V7-ndk \
     vendor.mediatek.hardware.videotelephony-V1-ndk-vendor \
     vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk \
+    vendor.xiaomi.hardware.aidlbgservice-V1-impl \
+    vendor.xiaomi.hardware.aidlbgservice-V1-ndk \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.mfidoca-V1-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk \
+    vendor.xiaomi.hardware.quickcamera-V1-ndk_platform \
     vendor.xiaomi.sensor.citsensorservice-V1-ndk \
     libapu_mdw_ext.mtk \
     libapuwareapusys.mtk \
@@ -1593,6 +1627,7 @@ PRODUCT_PACKAGES += \
     libArcNetMtk \
     libMiDispDevManager \
     libTrueSight \
+    libadaptivehdr \
     libalAILDC \
     libalAI_Seg \
     libalAI_Seg_CFR \
@@ -1602,10 +1637,13 @@ PRODUCT_PACKAGES += \
     libalNN_engine \
     libalNN_gpu \
     libalhLDC \
+    libanc_dc_base \
+    libarc.ion \
     libarcsoft_bokeh_high_dynamic_range \
     libarcsoft_high_dynamic_range \
     libarcsoft_low_light_hdr \
     libarcsoft_mf_superresolution \
+    libarcsoft_raw_sr \
     libarcsoft_sn_mtk_apu \
     libarcsoft_super_night_raw \
     libarcsoft_super_night_raw_front \
@@ -1623,14 +1661,18 @@ PRODUCT_PACKAGES += \
     libmiXmlParser \
     libmi_dspp \
     libmiai_deblur \
+    libmiaio_aio_seg \
     libmialgo_aio_seg \
     libmialgo_depth \
+    libmialgo_ds_nn \
     libmialgo_ie_capture \
     libmialgo_utils \
     libmiocr \
     libmiphone_capture_bokeh \
     libmiphone_capture_depth \
+    libmiphone_capture_mdbokeh \
     libmlipay_mitee \
+    libmorpho_Depurple \
     libmt_mitee \
     libomp \
     libpaperMode \
@@ -1639,19 +1681,17 @@ PRODUCT_PACKAGES += \
     libsre \
     libtruetone \
     libvideomode \
+    libwa_widelens_undistort \
     com.google.android.widevine.nonupdatable \
     HotwordEnrollmentXGoogleRISCV_WIDEBAND \
     HotwordEnrollmentYGoogleRISCV_WIDEBAND \
     ImsService \
     MtkGbaService \
     MtkTelephonyAssist \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
+    mediatek-ims-base \
     mediatek-ims-extension-plugin \
+    mediatek-telephony-base \
     android.hardware.gatekeeper-service.mitee.xml \
     android.hardware.identity@5.0-service.mitee.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
@@ -1733,24 +1773,16 @@ PRODUCT_PACKAGES += \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_pd_ParameterDB_pd_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_pipeline_ParameterDB_pipeline_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tone_ParameterDB_tone_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasgc16b3front_mipi_raw_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasgc16b3front_mipi_raw_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov08d10ultra_mipi_raw_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov08d10ultra_mipi_raw_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov08d10ultra_mipi_raw_2_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov08d10ultra_mipi_raw_2_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov16a1qfront_mipi_raw_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov16a1qfront_mipi_raw_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov16a1qfront_mipi_raw_2_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov16a1qfront_mipi_raw_2_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov64b40wide_mipi_raw_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov64b40wide_mipi_raw_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov64b40wide_mipi_raw_2_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov64b40wide_mipi_raw_2_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degassc202pcsmacro_mipi_raw_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degassc202pcsmacro_mipi_raw_ISP_param_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degassc202pcsmacro_mipi_raw_2_ISP_mapping_db \
-    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degassc202pcsmacro_mipi_raw_2_ISP_param_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_default_sensor_ISP_mapping_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_default_sensor_ISP_param_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasimx906wide_mipi_raw_ISP_mapping_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasimx906wide_mipi_raw_ISP_param_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov13b10ultra_mipi_raw_ISP_mapping_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degasov13b10ultra_mipi_raw_ISP_param_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kjn1tele_mipi_raw_ISP_mapping_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kjn1tele_mipi_raw_ISP_param_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kkd1front_mipi_raw_ISP_mapping_db \
+    odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_degass5kkd1front_mipi_raw_ISP_param_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_ISP_info_db \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aov_ISP_info_db \
     vendor_bin_hw_android_hardware_graphics_allocator-V2-service-mediatek \
@@ -1766,24 +1798,34 @@ PRODUCT_PACKAGES += \
     vendor_lib64_hw_sensors_mt6897_so \
     vendor_lib64_arm_graphics-V4-ndk_so \
     vendor_lib64_arm_mali_platform-V2-ndk_so \
-    vendor_lib64_degasgc16b3front_mipi_raw_IdxMgr_so \
-    vendor_lib64_degasgc16b3front_mipi_raw_tuning_so \
-    vendor_lib64_degasov08d10ultra_mipi_raw_2_IdxMgr_so \
-    vendor_lib64_degasov08d10ultra_mipi_raw_2_tuning_so \
-    vendor_lib64_degasov08d10ultra_mipi_raw_IdxMgr_so \
-    vendor_lib64_degasov08d10ultra_mipi_raw_tuning_so \
-    vendor_lib64_degasov16a1qfront_mipi_raw_2_IdxMgr_so \
-    vendor_lib64_degasov16a1qfront_mipi_raw_2_tuning_so \
-    vendor_lib64_degasov16a1qfront_mipi_raw_IdxMgr_so \
-    vendor_lib64_degasov16a1qfront_mipi_raw_tuning_so \
-    vendor_lib64_degasov64b40wide_mipi_raw_2_IdxMgr_so \
-    vendor_lib64_degasov64b40wide_mipi_raw_2_tuning_so \
-    vendor_lib64_degasov64b40wide_mipi_raw_IdxMgr_so \
-    vendor_lib64_degasov64b40wide_mipi_raw_tuning_so \
-    vendor_lib64_degassc202pcsmacro_mipi_raw_2_IdxMgr_so \
-    vendor_lib64_degassc202pcsmacro_mipi_raw_2_tuning_so \
-    vendor_lib64_degassc202pcsmacro_mipi_raw_IdxMgr_so \
-    vendor_lib64_degassc202pcsmacro_mipi_raw_tuning_so \
+    vendor_lib64_degasimx906wide_mipi_raw_IdxMgr_so \
+    vendor_lib64_degasimx906wide_mipi_raw_tuning_so \
+    vendor_lib64_degasov13b10ultra_mipi_raw_IdxMgr_so \
+    vendor_lib64_degasov13b10ultra_mipi_raw_tuning_so \
+    vendor_lib64_degass5kjn1tele_mipi_raw_IdxMgr_so \
+    vendor_lib64_degass5kjn1tele_mipi_raw_tuning_so \
+    vendor_lib64_degass5kkd1front_mipi_raw_IdxMgr_so \
+    vendor_lib64_degass5kkd1front_mipi_raw_tuning_so \
+    vendor_lib64_duchampgc16b3front_mipi_raw_IdxMgr_so \
+    vendor_lib64_duchampgc16b3front_mipi_raw_tuning_so \
+    vendor_lib64_duchampov08d10ultra_mipi_raw_2_IdxMgr_so \
+    vendor_lib64_duchampov08d10ultra_mipi_raw_2_tuning_so \
+    vendor_lib64_duchampov08d10ultra_mipi_raw_IdxMgr_so \
+    vendor_lib64_duchampov08d10ultra_mipi_raw_tuning_so \
+    vendor_lib64_duchampov16a1qfront_mipi_raw_2_IdxMgr_so \
+    vendor_lib64_duchampov16a1qfront_mipi_raw_2_tuning_so \
+    vendor_lib64_duchampov16a1qfront_mipi_raw_IdxMgr_so \
+    vendor_lib64_duchampov16a1qfront_mipi_raw_tuning_so \
+    vendor_lib64_duchampov50ewide_mipi_raw_IdxMgr_so \
+    vendor_lib64_duchampov50ewide_mipi_raw_tuning_so \
+    vendor_lib64_duchampov64b40wide_mipi_raw_2_IdxMgr_so \
+    vendor_lib64_duchampov64b40wide_mipi_raw_2_tuning_so \
+    vendor_lib64_duchampov64b40wide_mipi_raw_IdxMgr_so \
+    vendor_lib64_duchampov64b40wide_mipi_raw_tuning_so \
+    vendor_lib64_duchampsc202pcsmacro_mipi_raw_2_IdxMgr_so \
+    vendor_lib64_duchampsc202pcsmacro_mipi_raw_2_tuning_so \
+    vendor_lib64_duchampsc202pcsmacro_mipi_raw_IdxMgr_so \
+    vendor_lib64_duchampsc202pcsmacro_mipi_raw_tuning_so \
     vendor_lib64_lib3a_ae_so \
     vendor_lib64_lib3a_ae_stat_so \
     vendor_lib64_lib3a_af_assist_models1d_so \
@@ -2138,8 +2180,5 @@ PRODUCT_PACKAGES += \
     vendor_lib64_mtk000_mipi_raw_tuning_so
 
 PRODUCT_BOOT_JARS += \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
+    system_ext:mediatek-ims-base \
+    system_ext:mediatek-telephony-base
