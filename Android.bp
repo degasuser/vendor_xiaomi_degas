@@ -1819,6 +1819,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaaa_afassist_V2.so",
             ],
             shared_libs: [
+                "libc++_shared",
                 "libdl",
                 "liblog",
                 "libSQLiteModule_VER_ALL",
@@ -1844,6 +1845,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaaa_afassistctrl.so",
             ],
             shared_libs: [
+                "libc++_shared",
                 "libdl",
                 "liblog",
                 "libaaa_afassist_V2",
