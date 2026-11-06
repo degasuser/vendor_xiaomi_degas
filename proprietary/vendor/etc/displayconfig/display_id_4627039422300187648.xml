@@ -12,8 +12,16 @@
             <nits>500.0</nits>
         </point>
         <point>
+            <value>0.699914540</value>
+            <nits>700.0</nits>
+        </point>
+        <point>
+            <value>0.952386766</value>
+            <nits>1600.0</nits>
+        </point>
+        <point>
             <value>1.0</value>
-            <nits>1200.0</nits>
+            <nits>4500.0</nits>
         </point>
     </screenBrightnessMap>
     <!-- root node for HBM-->
@@ -49,7 +57,7 @@
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
-    <ambientLightHorizonLong>3000</ambientLightHorizonLong>
+    <ambientLightHorizonLong>1500</ambientLightHorizonLong>
     <ambientLightHorizonShort>1000</ambientLightHorizonShort>
 </displayConfiguration>
 <!-- END Adapt_MIUIAdaptFrame -->

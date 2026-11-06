@@ -32,10 +32,67 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_param.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/degass5kkd1front_mipi_raw/mt6897/ISP_param.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6897/ISP_info.db \
     vendor/xiaomi/degas/proprietary/odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6897/ISP_info.db:$(TARGET_COPY_OUT_ODM)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6897/ISP_info.db \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_ODM)/etc/camera/102_SummerDay.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/103_Fantasy.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_ODM)/etc/camera/104_Meet.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/105_WindSing.png:$(TARGET_COPY_OUT_ODM)/etc/camera/105_WindSing.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/106_Lost.png:$(TARGET_COPY_OUT_ODM)/etc/camera/106_Lost.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/107_Central.png:$(TARGET_COPY_OUT_ODM)/etc/camera/107_Central.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_ODM)/etc/camera/108_NorthernEurope.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_ODM)/etc/camera/109_Rome.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_ODM)/etc/camera/110_BlackGold.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/111_GreenOrange.png:$(TARGET_COPY_OUT_ODM)/etc/camera/111_GreenOrange.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/112_CyberPunk.png:$(TARGET_COPY_OUT_ODM)/etc/camera/112_CyberPunk.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/113_BlackIce.png:$(TARGET_COPY_OUT_ODM)/etc/camera/113_BlackIce.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/121_Bleach.png:$(TARGET_COPY_OUT_ODM)/etc/camera/121_Bleach.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/122_Thriller.png:$(TARGET_COPY_OUT_ODM)/etc/camera/122_Thriller.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/123_TealOrange.png:$(TARGET_COPY_OUT_ODM)/etc/camera/123_TealOrange.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/124_JapaneseStyle.png:$(TARGET_COPY_OUT_ODM)/etc/camera/124_JapaneseStyle.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/125_Latin.png:$(TARGET_COPY_OUT_ODM)/etc/camera/125_Latin.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/126_Fantasy2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/126_Fantasy2.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/127_Creamy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/127_Creamy.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/128_Sepia.png:$(TARGET_COPY_OUT_ODM)/etc/camera/128_Sepia.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/129_LeicaVivid.png:$(TARGET_COPY_OUT_ODM)/etc/camera/129_LeicaVivid.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/130_LeicaNatural.png:$(TARGET_COPY_OUT_ODM)/etc/camera/130_LeicaNatural.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/131_MonochromeTrue.png:$(TARGET_COPY_OUT_ODM)/etc/camera/131_MonochromeTrue.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/132_MonochromeHighContrast.png:$(TARGET_COPY_OUT_ODM)/etc/camera/132_MonochromeHighContrast.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/133_MonochromeBrown.png:$(TARGET_COPY_OUT_ODM)/etc/camera/133_MonochromeBrown.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/134_MonochromeBlue.png:$(TARGET_COPY_OUT_ODM)/etc/camera/134_MonochromeBlue.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/135_Classical.png:$(TARGET_COPY_OUT_ODM)/etc/camera/135_Classical.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/136_Filene.png:$(TARGET_COPY_OUT_ODM)/etc/camera/136_Filene.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/137_GreenNight.png:$(TARGET_COPY_OUT_ODM)/etc/camera/137_GreenNight.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/138_LiteratureAndArt.png:$(TARGET_COPY_OUT_ODM)/etc/camera/138_LiteratureAndArt.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/139_OrangeHoney.png:$(TARGET_COPY_OUT_ODM)/etc/camera/139_OrangeHoney.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/140_Romance.png:$(TARGET_COPY_OUT_ODM)/etc/camera/140_Romance.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/141_FR500.png:$(TARGET_COPY_OUT_ODM)/etc/camera/141_FR500.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/142_FE250.png:$(TARGET_COPY_OUT_ODM)/etc/camera/142_FE250.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/143_RedLantern.png:$(TARGET_COPY_OUT_ODM)/etc/camera/143_RedLantern.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/144_RedHero.png:$(TARGET_COPY_OUT_ODM)/etc/camera/144_RedHero.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/145_TactileBlackWhite.png:$(TARGET_COPY_OUT_ODM)/etc/camera/145_TactileBlackWhite.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/146_TactileGreen.png:$(TARGET_COPY_OUT_ODM)/etc/camera/146_TactileGreen.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/147_Neutral.png:$(TARGET_COPY_OUT_ODM)/etc/camera/147_Neutral.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/148_Mild.png:$(TARGET_COPY_OUT_ODM)/etc/camera/148_Mild.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/149_LilyWhite.png:$(TARGET_COPY_OUT_ODM)/etc/camera/149_LilyWhite.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/150_Bright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/150_Bright.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/151_Fresh.png:$(TARGET_COPY_OUT_ODM)/etc/camera/151_Fresh.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/152_Limpid.png:$(TARGET_COPY_OUT_ODM)/etc/camera/152_Limpid.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/153_KC64.png:$(TARGET_COPY_OUT_ODM)/etc/camera/153_KC64.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/154_V250.png:$(TARGET_COPY_OUT_ODM)/etc/camera/154_V250.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/155_H400.png:$(TARGET_COPY_OUT_ODM)/etc/camera/155_H400.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/156_ColdWhite.png:$(TARGET_COPY_OUT_ODM)/etc/camera/156_ColdWhite.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/157_Native.png:$(TARGET_COPY_OUT_ODM)/etc/camera/157_Native.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/158_BWClassical.png:$(TARGET_COPY_OUT_ODM)/etc/camera/158_BWClassical.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/159_Flowers.png:$(TARGET_COPY_OUT_ODM)/etc/camera/159_Flowers.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/160_Vivid.png:$(TARGET_COPY_OUT_ODM)/etc/camera/160_Vivid.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/161_KP160.png:$(TARGET_COPY_OUT_ODM)/etc/camera/161_KP160.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/162_Natural.png:$(TARGET_COPY_OUT_ODM)/etc/camera/162_Natural.png \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/CFR_para_UW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/CameraImageSize.json:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraImageSize.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/CameraPlatformInfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraPlatformInfo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/CameraImageSize_gl.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraImageSize_gl.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/CameraPlatformInfo_gl.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraPlatformInfo_gl.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/CameraPlatformInfo_gl_factory.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraPlatformInfo_gl_factory.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/ai_scene.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ai_scene.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ainr_v1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ainr_v1.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ainr_v1_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/ainr_v1_params.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/aivsModel_0478CF20:$(TARGET_COPY_OUT_ODM)/etc/camera/aivsModel_0478CF20 \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/aivsModel_168C0E45:$(TARGET_COPY_OUT_ODM)/etc/camera/aivsModel_168C0E45 \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/aivsModel_16E8F8F9:$(TARGET_COPY_OUT_ODM)/etc/camera/aivsModel_16E8F8F9 \
@@ -47,74 +104,131 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/aivsModel_CA81E52F:$(TARGET_COPY_OUT_ODM)/etc/camera/aivsModel_CA81E52F \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/aivsModel_D249D0CD:$(TARGET_COPY_OUT_ODM)/etc/camera/aivsModel_D249D0CD \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/aivsModel_FF7AE9B5:$(TARGET_COPY_OUT_ODM)/etc/camera/aivsModel_FF7AE9B5 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/alCFR_Segmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/alCFR_Segmodel.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/arcsoft_dynamicEV_config.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/arcsoft_dynamicEV_config.ini \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/beauty_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/beauty_config.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/beauty_config_cn.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/beauty_config_cn.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/beauty_config_gl.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/beauty_config_gl.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/beauty_config_in.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/beauty_config_in.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/beauty_config_ru.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/beauty_config_ru.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/TStools_default_param.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/TStools_default_param.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/default_param.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/default_param.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/kernel/1720888_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/kernel/1720888_64.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/kernel/2821809890_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/kernel/2821809890_64.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/kernel/3711416411_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/kernel/3711416411_64.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/kernel/64/g33beb55034049b5d9833135ad1e0e3d2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/kernel/64/g33beb55034049b5d9833135ad1e0e3d2.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/kernel/64/s31bc24e5f6c4ef1752c77f3a22ad1ffcs0cc175b9c0f1b6a831c399e269772661t92eb5ffee6ae2fec3ad71c777531578fn92eb5ffee6ae2fec3ad71c777531578fn.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/kernel/64/s31bc24e5f6c4ef1752c77f3a22ad1ffcs0cc175b9c0f1b6a831c399e269772661t92eb5ffee6ae2fec3ad71c777531578fn92eb5ffee6ae2fec3ad71c777531578fn.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/kernel/64/t31bc24e5f6c4ef1752c77f3a22ad1ffcs0cc175b9c0f1b6a831c399e269772661t92eb5ffee6ae2fec3ad71c777531578fn92eb5ffee6ae2fec3ad71c777531578fn.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/kernel/64/t31bc24e5f6c4ef1752c77f3a22ad1ffcs0cc175b9c0f1b6a831c399e269772661t92eb5ffee6ae2fec3ad71c777531578fn92eb5ffee6ae2fec3ad71c777531578fn.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/1031135984:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/1031135984 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/1711078354:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/1711078354 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/1966560729:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/1966560729 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2192216592:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2192216592 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2242409300:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2242409300 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2405225402:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2405225402 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2451251547:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2451251547 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2626574232:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2626574232 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2006930793:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2006930793 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2085006248:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2085006248 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2390066647:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2390066647 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2512261271:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2512261271 \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2722133617:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2722133617 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/2722162333:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/2722162333 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/272576290:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/272576290 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/3133955604:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/3133955604 \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/3252339865:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/3252339865 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/3606267036:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/3606267036 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/982209079:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/982209079 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/1068495261:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/1068495261 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/1202823203:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/1202823203 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/1587396406:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/1587396406 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/183601851:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/183601851 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/1846660881:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/1846660881 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/2135547585:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/2135547585 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/2199122872:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/2199122872 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/2532213662:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/2532213662 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/2611148883:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/2611148883 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/2644822710:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/2644822710 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/3171791906:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/3171791906 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/33333333:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/33333333 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/3533515369:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/3533515369 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/3626370065:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/3626370065 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/4183165925:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/4183165925 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/4224303816:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/4224303816 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/837151146:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/837151146 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/858912661:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/858912661 \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/10_ColorTone/Effects/0_ModeClassical/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/10_ColorTone/Effects/0_ModeClassical/effect.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/10_ColorTone/Effects/0_ModeClassical/filter.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/10_ColorTone/Effects/0_ModeClassical/filter.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/10_ColorTone/Effects/1_ModeNative/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/10_ColorTone/Effects/1_ModeNative/effect.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/10_ColorTone/Effects/1_ModeNative/filter.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/10_ColorTone/Effects/1_ModeNative/filter.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/10_ColorTone/mode_classical.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/10_ColorTone/mode_classical.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/10_ColorTone/mode_native.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/10_ColorTone/mode_native.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/15_DLRetouch/mode_classical.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/15_DLRetouch/mode_classical.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/15_DLRetouch/mode_native.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/15_DLRetouch/mode_native.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/15_DLRetouch/mode_none.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/15_DLRetouch/mode_none.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/15_DLRetouch/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/15_DLRetouch/mode_rear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/3551315357:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/3551315357 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/3872131293:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/3872131293 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/399074021:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/399074021 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/4101772452:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/4101772452 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/805655522:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/805655522 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/model/models.mbundle:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/model/models.mbundle \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/Material/1166466556_252005700:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/Material/1166466556_252005700 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/Material/1166466556_2571257293:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/Material/1166466556_2571257293 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/Material/1166466556_4025145477:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/Material/1166466556_4025145477 \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BASE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BASE.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_COLOR_LAYER_WITH_MASK_Define_NORMAL_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_COLOR_LAYER_WITH_MASK_Define_NORMAL_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_MULTIPLY_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_MULTIPLY_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_MULTIPLY_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_MULTIPLY_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_SOFT_LIGHT_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BLEND_IMAGE_LAYER_WITH_MASK_Define_SOFT_LIGHT_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS_V2_WITH_PUPIL.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_BRIGHT_EYE_PROCESS_V2_WITH_PUPIL.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_FUSE_OFFSET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_FUSE_OFFSET.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_DEF_CATMULL_ROM.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_UVMAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_NORMAL_MESH_WARP_Define_ENABLE_UVMAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_EYE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_EYE.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_NORMAL.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_NORMAL.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_SPLITLR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_FUSE_OFFSET_SPLITLR.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_V2_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_WARP_Define_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_WARP_Define_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_WARP_Define_ENABLE_EG_SUPPRESSION_DEF_CATMULL_ROM.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_REFINE_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_SMOOTH_PROCESS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_FACIAL_SMOOTH_PROCESS.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_GAUSS_BILATERAL_1D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_GAUSS_BILATERAL_1D.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_GAUSS_FIX_KERNEL_1D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_GAUSS_FIX_KERNEL_1D.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_GAUSS_FIX_KERNEL_WITH_MASK_1D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_GAUSS_FIX_KERNEL_WITH_MASK_1D.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_Define_DEF_CATMULL_ROM_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_Define_DEF_CATMULL_ROM_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_Define_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_Define_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_ROTATE_Define_DEF_CATMULL_ROM_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_ROTATE_Define_DEF_CATMULL_ROM_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_ROTATE_Define_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_ROTATE_Define_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_ROTATE_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_ROTATE_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_SCALE_Define_DEF_CATMULL_ROM_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_SCALE_Define_DEF_CATMULL_ROM_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_SCALE_Define_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_SCALE_Define_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_SCALE_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_SCALE_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_TRANSLATE_Define_DEF_CATMULL_ROM_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_TRANSLATE_Define_DEF_CATMULL_ROM_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_TRANSLATE_Define_ENABLE_EG_SUPPRESSION.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_TRANSLATE_Define_ENABLE_EG_SUPPRESSION.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_TRANSLATE_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LOCAL_WARP_TRANSLATE_Define_ENABLE_EG_SUPPRESSION_ENABLE_UVMAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LUMA_TO_ALPHA_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_LUMA_TO_ALPHA_Define_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_MEAN_BLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_MEAN_BLUR.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_MEAN_BOX_2x2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_MEAN_BOX_2x2.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_MEDIAN_BLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_MEDIAN_BLUR.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_NORMAL_LUT_512_512_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_NORMAL_LUT_512_512_Define_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_NORMAL_LUT_512_512_WITH_MASK_Define_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_NORMAL_LUT_512_512_WITH_MASK_Define_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MEANBLUR_1D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MEANBLUR_1D.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MEANBLUR_1D_Define_USE_ALPHA_WEIGHT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MEANBLUR_1D_Define_USE_ALPHA_WEIGHT.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MERGE_MASK.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_MERGE_MASK.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_SIMPLE_PROCESS_ADVANCE_Define_CHANNEL_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_SIMPLE_PROCESS_ADVANCE_Define_CHANNEL_R_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_SIMPLE_PROCESS_Define_CHANNEL_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_SIMPLE_PROCESS_Define_CHANNEL_R_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_VARIANCE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_FOGGY_VARIANCE.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_TEXTURE_GUIDE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_TEXTURE_GUIDE.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_TEXTURE_PROCESS_NORMAL_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_TEXTURE_PROCESS_NORMAL_Define_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_TEXTURE_PROCESS_WITH_MASK_Define_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_RETOUCH_TEXTURE_PROCESS_WITH_MASK_Define_MASK_CHANNEL_TYPE_R_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_SINGLE_LABEL.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_SINGLE_LABEL.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_SKIN_MASK_HSV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_SKIN_MASK_HSV.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_SPOTLESS_PROCESS_NORMAL_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_SPOTLESS_PROCESS_NORMAL_Define_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_SPOTLESS_PROCESS_WITH_SKIN_MASK_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_SPOTLESS_PROCESS_WITH_SKIN_MASK_Define_FRAMEBUFFER_FETCH_MALI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_UV_DELTA_MAP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_UV_DELTA_MAP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_UV_MAP_WARP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_UV_MAP_WARP.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_UV_MAP_WARP_Define_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_UV_MAP_WARP_Define_DEF_CATMULL_ROM.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_WARP_AFFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_WARP_AFFINE.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_WARP_NORMAL.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_WARP_NORMAL.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_WARP_NORMAL_Define_WARP_TO_ROI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_WARP_NORMAL_Define_WARP_TO_ROI.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_WHITEN_TEETH_PROCESS_WITH_LUT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/OGL_WHITEN_TEETH_PROCESS_WITH_LUT.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_RGBA2RGBAUtils.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_RGBA2RGBAUtils.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_RGBA2YUVUtils.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_RGBA2YUVUtils.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_RGBA2YUVUtils_SWAP_UV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_RGBA2YUVUtils_SWAP_UV.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2RGBAUtils.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2RGBAUtils.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2RGBAUtils_DEHAZE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2RGBAUtils_DEHAZE.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2RGBAUtils_SWAP_UV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2RGBAUtils_SWAP_UV.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2RGBAUtils_SWAP_UV_DEHAZE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2RGBAUtils_SWAP_UV_DEHAZE.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2YUVUtils.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2YUVUtils.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2YUVUtils_SWAP_UV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/BuildIn/binShaders64/shader_YUV2YUVUtils_SWAP_UV.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/0_Spotless/FaceMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/0_Spotless/FaceMask.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/0_Spotless/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/0_Spotless/effect.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothClassical/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothClassical/effect.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/FaceMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/FaceMask.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/FaceMask_Capture.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/FaceMask_Capture.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/effect_preview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/0_Spotless/effect_front_other.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/0_Spotless/effect_front_other.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothFront/FaceMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothFront/FaceMask.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothFront/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothFront/effect_capture.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothFront/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothFront/effect_preview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/FaceMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/FaceMask.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/effect_capture.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/effect_potraiture_vivid_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/effect_potraiture_vivid_capture.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/effect_preview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/4_Hessian/FaceMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/4_Hessian/FaceMask.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/4_Hessian/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/4_Hessian/effect.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_classical.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_classical.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_light.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_light.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_native.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_native.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/5_SkinSmooth/FaceMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/5_SkinSmooth/FaceMask.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/5_SkinSmooth/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/Effects/5_SkinSmooth/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_front.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_front_other.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_front_other.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_rear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_rear_portraiture_vivid.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_rear_portraiture_vivid.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/20_FaceRetouch/mode_video.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEye/LeftEye.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEye/LeftEye.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEye/RightEye.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEye/RightEye.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEye/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEye/effect.json \
@@ -122,300 +236,448 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/eye_pupil.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/eye_pupil.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/left_eye.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/left_eye.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/right_eye.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/right_eye.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FacialSmoothMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FacialSmoothMask.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/2_WhitenTeeth/cc_map.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/2_WhitenTeeth/cc_map.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/2_WhitenTeeth/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/2_WhitenTeeth/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/2_WhitenTeeth/mask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/Effects/2_WhitenTeeth/mask.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/mode_base.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/mode_base.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_preview.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/xr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/xr.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeNative/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeNative/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeNative/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeNative/effect_preview.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeNative/xr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeNative/xr.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeRear/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeRear/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeRear/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeRear/effect_preview.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeRear/xr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeRear/xr.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_classical.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_classical.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_native.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_native.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/mode_base_all.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/mode_base_all.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/30_BasicRetouch/mode_rear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeFront/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeFront/effect_capture.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeFront/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeFront/effect_preview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeFront/xr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/1_ModeFront/xr.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeVideo/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeVideo/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeVideo/xr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/2_ModeVideo/xr.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/3_ModeRear/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/3_ModeRear/effect_capture.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/3_ModeRear/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/3_ModeRear/effect_preview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/3_ModeRear/xr_female.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/3_ModeRear/xr_female.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/3_ModeRear/xr_male.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/Effects/3_ModeRear/xr_male.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_front.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_rear.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/0_ModeClassical/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/0_ModeClassical/effect.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/0_ModeClassical/filter.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/0_ModeClassical/filter.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/1_ModeNative/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/1_ModeNative/effect.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/1_ModeNative/filter.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/1_ModeNative/filter.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_classical.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_classical.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_native.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_native.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/Eyebrow.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/Eyebrow.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/effect_preview.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/sh.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/sh.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/yyy.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/yyy.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/yyz.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/yyz.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/zc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeClassical/zc.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/Eyebrow.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/Eyebrow.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/effect_preview.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/sh.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/sh.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/yyy.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/yyy.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/yyz.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/yyz.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/zc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeNative/zc.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_classical.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_classical.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_native.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_native.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/effect_preview.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/eye_refine.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/eye_refine.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/facelift.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/facelift.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/nose.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/0_ModeClassical/nose.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/effect_preview.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/eye_refine.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/eye_refine.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/facelift.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/facelift.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/nose.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeNative/nose.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeOtherFront/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeOtherFront/effect_capture.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeOtherFront/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeOtherFront/effect_preview.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeOtherFront/eye_refine.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeOtherFront/eye_refine.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeOtherFront/facelift.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeOtherFront/facelift.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/40_FaceStereo/mode_video.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/1_ModeFront/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/1_ModeFront/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/1_ModeFront/filter.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/1_ModeFront/filter.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/2_ModeRear/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/2_ModeRear/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/2_ModeRear/filter.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/2_ModeRear/filter.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/3_ModeIQ/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/3_ModeIQ/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/3_ModeIQ/filter.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/Effects/3_ModeIQ/filter.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_IQ.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_IQ.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_front.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/50_SkinTone/mode_rear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_front.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_front_other.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_front_other.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_none.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_none.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_rear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_rear_portraiture_vivid.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_rear_portraiture_vivid.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/5_DLRetouch/mode_video.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/Eyebrow.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/Eyebrow.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/effect_capture.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/effect_preview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/sh.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/sh.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/yyy.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/yyy.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/yyz.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/yyz.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/zc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeFront/zc.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeRear/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeRear/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeRear/zc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeRear/zc.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/Eyebrow.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/Eyebrow.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/effect.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/sh.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/sh.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/yyy.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/yyy.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/yyz.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/yyz.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/zc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/Effects/0_ModeVideo/zc.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_front.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_rear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/60_Makeup/mode_video.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/effect_capture.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/effect_preview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/eye_refine.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/eye_refine.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/facelift.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/facelift.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/nose.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/1_ModeFront/nose.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeFrontOther/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeFrontOther/effect_capture.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeFrontOther/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeFrontOther/effect_preview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeFrontOther/eye_refine.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeFrontOther/eye_refine.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeFrontOther/facelift.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/2_ModeFrontOther/facelift.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/3_ModeVideo/effect.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/3_ModeVideo/effect.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/3_ModeVideo/eye_refine.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/3_ModeVideo/eye_refine.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/3_ModeVideo/facelift.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/3_ModeVideo/facelift.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/3_ModeVideo/nose.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/3_ModeVideo/nose.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_0.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_1.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_2.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_3.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_3.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_4.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/Grid_4.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/effect_capture.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/effect_capture.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/effect_preview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/effect_preview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/eye_refine.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/Effects/4_ModeRear/eye_refine.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_classical.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_classical.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_native.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_native.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_other_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_other_front.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_front.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_front_other.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_front_other.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_rear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_rear_portrait.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_rear_portrait.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/70_FacialRefine/mode_video.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/Debug/configuration.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/Debug/configuration.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/Debug/mode_debug.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/Debug/mode_debug.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/Parameter/mode_rear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/Parameter/mode_rear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/Parameter/mode_rear_style.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/Parameter/mode_rear_style.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/Parameter/mode_rear_vivid_reshape.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/Parameter/mode_rear_vivid_reshape.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_list.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_list.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_classical.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_classical.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_classical_otherFront.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_classical_otherFront.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_IQ.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_IQ.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_clear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_clear.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_native.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_native.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_native_otherFront.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_native_otherFront.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_front.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_front_other.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_front_other.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_otherRear.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_otherRear.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_rear_vivid_reshape.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_rear_vivid_reshape.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_rear_vivid_retouch.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_rear_vivid_retouch.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/Effect/effect_mode_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/Effect/effect_mode_video.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/GlobalConfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/GlobalConfig.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_1D_GAUSSBLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_1D_GAUSSBLUR.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_1D_GAUSS_BILATERAL_BLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_1D_GAUSS_BILATERAL_BLUR.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_ADVANCE_BRIGHT_EYE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_ADVANCE_BRIGHT_EYE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_ADVANCE_BRIGHT_EYEV3_PROC_PUPIL.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_ADVANCE_BRIGHT_EYEV3_PROC_PUPIL.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_ADVANCE_GUIDE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_ADVANCE_GUIDE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BASE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BASE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BASE_Define_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BASE_Define_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BASIC_TEXTURE_MAPPING.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BASIC_TEXTURE_MAPPING.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BASIC_TEXTURE_MAPPING_Define_BLEND_ALPHA.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BASIC_TEXTURE_MAPPING_Define_BLEND_ALPHA.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_COLORLAYER_WITHMASK_Define_NORMAL_MASK_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_COLORLAYER_WITHMASK_Define_NORMAL_MASK_R_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_COLORLAYER_WITHMASK_Define_NORMAL_MASK_R_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_COLORLAYER_WITHMASK_Define_NORMAL_MASK_R_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_NORMAL_Define_MULTIPLY_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_NORMAL_Define_MULTIPLY_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_NORMAL_Define_MULTIPLY_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_NORMAL_Define_MULTIPLY_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_NORMAL_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_NORMAL_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_NORMAL_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_NORMAL_Define_SOFT_LIGHT_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_WITHMASK_Define_MULTIPLY_MASK_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_WITHMASK_Define_MULTIPLY_MASK_R_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_WITHMASK_Define_MULTIPLY_MASK_R_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_WITHMASK_Define_MULTIPLY_MASK_R_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_WITHMASK_Define_SOFT_LIGHT_MASK_R_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_WITHMASK_Define_SOFT_LIGHT_MASK_R_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_WITHMASK_Define_SOFT_LIGHT_MASK_R_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BLEND_IMAGELAYER_WITHMASK_Define_SOFT_LIGHT_MASK_R_FRAMEBUFFER_FETCH_MALI_BLEND_ALPHA.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BOX_FILTER_2X2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_BOX_FILTER_2X2.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_COLOR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_COLOR.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_CONTRAST_BLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_CONTRAST_BLUR.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACERETOUCH_LUMA_TO_ALPHA_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACERETOUCH_LUMA_TO_ALPHA_Define_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACESURGERY_HEADNARROW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACESURGERY_HEADNARROW.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACESURGERY_HEADNARROW_Define_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACESURGERY_HEADNARROW_Define_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACESURGERY_HEADNARROW_Define_SMOOTH_COORD.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACESURGERY_HEADNARROW_Define_SMOOTH_COORD.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACESURGERY_HEADNARROW_Define_SMOOTH_COORD_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACESURGERY_HEADNARROW_Define_SMOOTH_COORD_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_FUSE_OFFSETS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_FUSE_OFFSETS.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_WARP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_WARP.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_WARP_Define_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_WARP_Define_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_WARP_Define_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_WARP_Define_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_WARP_Define_USE_EG_PRESERV_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_NORMAL_WARP_Define_USE_EG_PRESERV_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_NEED_REFINE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT_NEED_REFINE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET_Define_NEED_REFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET_Define_NEED_REFINE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_M.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_M.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_M_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_M_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_M_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_M_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_M_USE_EG_PRESERV_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_M_USE_EG_PRESERV_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_LIQUID.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_LIQUID.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_USE_EG_PRESERV_DEF_CATMULL_ROM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_USE_EG_PRESERV_DEF_CATMULL_ROM.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_1D_MEANBLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_1D_MEANBLUR.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_1D_MEANBLUR_Define_USE_ALPHA_WEIGHT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_1D_MEANBLUR_Define_USE_ALPHA_WEIGHT.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_ADVANCE_PROCESS_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_ADVANCE_PROCESS_Define_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_SIMPLE_PROCESS_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_SIMPLE_PROCESS_Define_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_VARIANCE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_FOGGY_FACERETOUCH_VARIANCE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_HESSIAN_FACERETOUCH_PROCESS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_HESSIAN_FACERETOUCH_PROCESS.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_HESSIAN_FILTER.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_HESSIAN_FILTER.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_Define_DEF_CATMULL_ROM_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_Define_DEF_CATMULL_ROM_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_Define_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_Define_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_ROTATE_Define_DEF_CATMULL_ROM_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_ROTATE_Define_DEF_CATMULL_ROM_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_ROTATE_Define_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_ROTATE_Define_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_SCALE_Define_DEF_CATMULL_ROM_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_SCALE_Define_DEF_CATMULL_ROM_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_SCALE_Define_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_SCALE_Define_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_TRANSLATE_Define_DEF_CATMULL_ROM_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_TRANSLATE_Define_DEF_CATMULL_ROM_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_TRANSLATE_Define_USE_EG_PRESERV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LOCAL_WARP_TRANSLATE_Define_USE_EG_PRESERV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LUT_3D_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_LUT_3D_Define_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_MEAN_BLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_MEAN_BLUR.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_MEDIAN_BLUR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_MEDIAN_BLUR.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_MERGE_MASK.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_MERGE_MASK.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_POINT.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_POINT.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_SPOTLESS_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_SPOTLESS_Define_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_TEXTURE_RETOUCH_PROCESS_Define_FRAMEBUFFER_FETCH_MALI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_TEXTURE_RETOUCH_PROCESS_Define_FRAMEBUFFER_FETCH_MALI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_WARP_AFFINE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_WARP_AFFINE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_WARP_AFFINE_INCREMENTAL.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_WARP_AFFINE_INCREMENTAL.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_WARP_NORMAL.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_WARP_NORMAL.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_WARP_NORMAL_Define_WARP_TO_ROI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_GLPROGRAM_WARP_NORMAL_Define_WARP_TO_ROI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_RGBA2RGBAUtils.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_RGBA2RGBAUtils.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_RGBA2YUVUtils.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_RGBA2YUVUtils.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_RGBA2YUVUtils_SWAP_UV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_RGBA2YUVUtils_SWAP_UV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2RGBAUtils.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2RGBAUtils.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2RGBAUtils_DEHAZE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2RGBAUtils_DEHAZE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2RGBAUtils_SWAP_UV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2RGBAUtils_SWAP_UV.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2RGBAUtils_SWAP_UV_DEHAZE.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2RGBAUtils_SWAP_UV_DEHAZE.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2YUVUtils.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2YUVUtils.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2YUVUtils_SWAP_UV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/render/glsl/binShaders64/shader_YUV2YUVUtils_SWAP_UV.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/truesight_param.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/truesight_param.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/beauty/resources/truesight_param_debug.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty/resources/truesight_param_debug.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/cameraopt_reclaim.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_reclaim.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/com.xiaomi.dcal.wt.golden:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.wt.golden \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/com.xiaomi.dcal.wu.golden:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.wu.golden \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/deblur_sd_opencl_binary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/deblur_sd_opencl_binary.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/deblur_sd_opencl_params.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/deblur_sd_opencl_params.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/deblur_txt_apu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/deblur_txt_apu.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_bokeh_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_bokeh_params_pro.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_caputre_h512w512_quan16.minn:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_caputre_h512w512_quan16.minn \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_caputre_h768w1024_quan16.minn:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_caputre_h768w1024_quan16.minn \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_depth_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_depth_params_pro.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_mdbokeh_params_depth.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_mdbokeh_params_depth.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_mdbokeh_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_mdbokeh_params_pro.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_preMdbokeh_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_preMdbokeh_params_pro.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_prebokeh_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_prebokeh_params_pro.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_predepth_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_predepth_params_pro.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/AAC_LDC_REAR_PACKDATA.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/AAC_LDC_REAR_PACKDATA.dat \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/AI_Seg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/AI_Seg.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/LDC_REAR_FPC_TUNING.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/LDC_REAR_FPC_TUNING.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/LDC_REAR_FPC_TUNING_AI.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/LDC_REAR_FPC_TUNING_AI.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/SUNNY_LDC_REAR_PACKDATA.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/SUNNY_LDC_REAR_PACKDATA.dat \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/libarcsoft_high_dynamic_range.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/libarcsoft_high_dynamic_range.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/libarcsoft_mf_superresolution.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/libarcsoft_mf_superresolution.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/libarcsoft_super_night_raw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/libarcsoft_super_night_raw.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/libarcsoft_super_night_raw_front.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/libarcsoft_super_night_raw_front.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/mage_mtk_capture_bokeh_cl.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_mtk_capture_bokeh_cl.bin \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/mage_mtk_capture_bokeh_mvpu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_mtk_capture_bokeh_mvpu.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/dualcam_tsspot_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_tsspot_params.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ellc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ellc.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ellc_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/ellc_params.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ellv.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ellv.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ellv4k.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ellv4k.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ellv_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/ellv_params.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ellv_params4k.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/ellv_params4k.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/facesr_hd_composite_ff_hd_5.18.6_mtkg615_apu_segapu_hd0912.model:$(TARGET_COPY_OUT_ODM)/etc/camera/facesr_hd_composite_ff_hd_5.18.6_mtkg615_apu_segapu_hd0912.model \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/intsense_config_singlebokeh.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/intsense_config_singlebokeh.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/ldc_cap_cache:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/ldc_cap_cache \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/ldc_cap_model:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/ldc_cap_model \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/ldc_cap_policy:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/ldc_cap_policy \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/ldc/rear_intsense_config_undistort.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ldc/rear_intsense_config_undistort.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mage_capture_bokeh_cl.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_capture_bokeh_cl.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mage_mtk_capture_mdbokeh_cl.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_mtk_capture_mdbokeh_cl.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mage_mtk_capture_mdbokeh_mono_mvpu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_mtk_capture_mdbokeh_mono_mvpu.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mage_mtk_capture_mdbokeh_portrait_mvpu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_mtk_capture_mdbokeh_portrait_mvpu.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mage_mtk_capture_mdbokeh_soft_mvpu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_mtk_capture_mdbokeh_soft_mvpu.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mage_mtk_capture_mdbokeh_spin_mvpu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_mtk_capture_mdbokeh_spin_mvpu.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mdbokeh_bwt.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mdbokeh_bwt.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mdbokeh_ngt.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mdbokeh_ngt.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mdbokeh_prt.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mdbokeh_prt.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mdbokeh_sft.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mdbokeh_sft.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/merge_noise_lsc_tbl_153620484_rgrbgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/merge_noise_lsc_tbl_153620484_rgrbgb.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/miSATTRatio_params_2sat.json:$(TARGET_COPY_OUT_ODM)/etc/camera/miSATTRatio_params_2sat.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/miSATTRatio_params_2sat_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/miSATTRatio_params_2sat_video.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/miSATTRatio_params_3sat.json:$(TARGET_COPY_OUT_ODM)/etc/camera/miSATTRatio_params_3sat.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/miSATTRatio_params_3sat_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/miSATTRatio_params_3sat_video.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/miSAT_params_2sat.json:$(TARGET_COPY_OUT_ODM)/etc/camera/miSAT_params_2sat.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/mialgo_mtk_capture_bokeh_depth_cl.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mialgo_mtk_capture_bokeh_depth_cl.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/miSAT_params_2sat_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/miSAT_params_2sat_video.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/miSAT_params_3sat.json:$(TARGET_COPY_OUT_ODM)/etc/camera/miSAT_params_3sat.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/miSAT_params_3sat_video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/miSAT_params_3sat_video.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mialgo_capture_bokeh_depth_cl.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mialgo_capture_bokeh_depth_cl.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/mialgo_merge_mvpu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mialgo_merge_mvpu.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/monocam_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/monocam_bokeh_params.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/no_uw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/no_uw.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/norm_circle.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/norm_circle.bin \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/ocr_aio:$(TARGET_COPY_OUT_ODM)/etc/camera/ocr_aio \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/para_ini_cal.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/para_ini_cal.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/para_ini_cal_tw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/para_ini_cal_tw.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/para_ini_cal_wu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/para_ini_cal_wu.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_front_class.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_class.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_front_class_bokeh.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_class_bokeh.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_front_class_bokeh_gt4300.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_class_bokeh_gt4300.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_front_class_gt4300.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_class_gt4300.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_front_live.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_live.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_front_live_bokeh.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_live_bokeh.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_front_live_bokeh_gt4300.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_live_bokeh_gt4300.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_front_live_gt4300.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_live_gt4300.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_rear_class.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_rear_class.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_rear_class_bokeh.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_rear_class_bokeh.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_rear_live.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_rear_live.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/portraitrepaire_rear_live_bokeh.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_rear_live_bokeh.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/preview_bokeh_params_mono.json:$(TARGET_COPY_OUT_ODM)/etc/camera/preview_bokeh_params_mono.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/preview_bokeh_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/preview_bokeh_params_pro.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/preview_mdbokeh_params_pro.json:$(TARGET_COPY_OUT_ODM)/etc/camera/preview_mdbokeh_params_pro.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/sceneDetection.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_depth_cache:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_depth_cache \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_depth_model:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_depth_model \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_depth_policy:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_depth_policy \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_head_cache:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_head_cache \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_head_model:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_head_model \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_head_policy:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_head_policy \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_pre_model:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_pre_model \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_seg_cache:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_seg_cache \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_seg_model:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_seg_model \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/sg_seg_policy:$(TARGET_COPY_OUT_ODM)/etc/camera/sg_seg_policy \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/uw.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/uw.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/20220921.icc:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/20220921.icc \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/DSACSettings.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/DSACSettings.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/EcoInfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/EcoInfo.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/MiCamCPUControl.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/MiCamCPUControl.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/cinelook.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/cinelook.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/cinematic.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/cinematic.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/cinematiccinelook.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/cinematiccinelook.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/dualbokehpreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/dualbokehpreview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/dualbokehsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/dualbokehsnapshot.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/ecocloudinfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/ecocloudinfo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/ecoMetaExtension.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/ecoMetaExtension.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/ecoMetaExtensionExt.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/ecoMetaExtensionExt.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/ecoMetaInfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/ecoMetaInfo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/ecoModeconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/ecoModeconfig.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/ecoenginevendorstreamconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/ecoenginevendorstreamconfig.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/ecoplatforminfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/ecoplatforminfo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/frontbokehpreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/frontbokehpreview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/frontbokehsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/frontbokehsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/frontdualviewvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/frontdualviewvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/frontmagicwandvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/frontmagicwandvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/frontsimplevideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/frontsimplevideo.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/frontsinglesnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/frontsinglesnapshot.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/frontsupernightsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/frontsupernightsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/hdr10video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/hdr10video.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/highresolutioncinelook.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/highresolutioncinelook.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/highresolutionhdr10video.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/highresolutionhdr10video.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/idcardsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/idcardsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/livevideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/livevideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/longexposurepreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/longexposurepreview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/manualpreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/manualpreview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/manualsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/manualsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/miviphotographerconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/miviphotographerconfig.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/mivisettings.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/mivisettings.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/mivistreamformat.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/mivistreamformat.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/mivivendorstreamconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/mivivendorstreamconfig.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/model.data \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/nighthighresolutionvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/nighthighresolutionvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/nightvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/nightvideo.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/normalpreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/normalpreview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/normalsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/normalsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/normalvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/normalvideo.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/overridesettings.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/overridesettings.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/panoramavideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/panoramavideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/professwithouteisvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/professwithouteisvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/reardualviewvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/reardualviewvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/rearhighresolution8kvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/rearhighresolution8kvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/rearhighresolutionvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/rearhighresolutionvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/rearmagicwandvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/rearmagicwandvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/rearsimplevideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/rearsimplevideo.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/rearsupernightsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/rearsupernightsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/satburstsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/satburstsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/satpreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/satpreview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/satsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/satsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/sdksnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/sdksnapshot.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/settings.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/settings.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/simplepreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/simplepreview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/supereisvideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/supereisvideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/superhdpreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/superhdpreview.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/superhdsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/superhdsnapshot.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/tpfrontbokehsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/tpfrontbokehsnapshot.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/tpfrontnormalsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/tpfrontnormalsnapshot.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/tpfrontsnsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/tpfrontsnsnapshot.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/tprearbokehsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/tprearbokehsnapshot.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/tprearnormalsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/tprearnormalsnapshot.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/tprearsnsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/tprearsnsnapshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/supernightpreview.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/supernightpreview.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/thirdpartyfrontsnapshotjpegr.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/thirdpartyfrontsnapshotjpegr.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/thirdpartysnapshotjpegr.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/thirdpartysnapshotjpegr.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/tprearsimplevideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/tprearsimplevideo.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/tpwechatsimplevideo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/tpwechatsimplevideo.json \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/uwsuperlowlightshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/uwsuperlowlightshot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/MiSans-Demibold.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSans-Demibold.ttf \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/MiSans-Medium.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSans-Medium.ttf \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/MiSans-Regular.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSans-Regular.ttf \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/MiSansArabicVF.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSansArabicVF.ttf \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/MiSansTibetanVF.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSansTibetanVF.ttf \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/Noto-COLRv1-emojicompat.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/Noto-COLRv1-emojicompat.ttf \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/Oxanium-Medium.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/Oxanium-Medium.ttf \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_film_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_film_logo.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_film_logo_white.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_film_logo_white.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_logo.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_logo_p3.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_logo_p3.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_poco_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_poco_logo.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_poco_logo_white.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_poco_logo_white.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_redmi_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_redmi_logo.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_redmi_logo_white.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_redmi_logo_white.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_xiaomi_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_xiaomi_logo.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_xiaomi_logo_white.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_xiaomi_logo_white.png \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_0100_c.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_0100_c.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_0101.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_0101.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_0101_c.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_0101_c.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_0214.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_0214.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_0601.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_0601.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_0815_c.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_0815_c.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_1208_c.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_1208_c.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_1225.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_1225.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_agra_fort.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_agra_fort.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_amber_fort.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_amber_fort.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_beauty_charm.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_beauty_charm.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_beijing.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_beijing.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_bluesky.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_bluesky.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_buddha.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_buddha.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_cat.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_cat.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_cat_c.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_cat_c.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_chengdu.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_chengdu.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_chongqing.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_chongqing.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_cloudy.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_cloudy.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_coconut_tree.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_coconut_tree.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_coffee.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_coffee.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_coffee_c.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_coffee_c.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_cow.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_cow.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_curry.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_curry.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_delicacy.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_delicacy.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_diwali.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_diwali.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_dog.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_dog.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_dog_c.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_dog_c.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_dussehra.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_dussehra.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_elephant_god.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_elephant_god.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_fleshiness.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_fleshiness.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_flower.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_flower.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_gateway_delhi.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_gateway_delhi.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_gateway_mumbai.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_gateway_mumbai.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_grassplot.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_grassplot.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_great_wall.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_great_wall.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_gu_lang_island.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_gu_lang_island.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_guangzhou.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_guangzhou.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_hang_ya_cave.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_hang_ya_cave.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_hangzhou.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_hangzhou.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_happy_time.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_happy_time.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_holi.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_holi.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_huoguo.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_huoguo.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_kids.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_kids.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_kids_c.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_kids_c.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_leafs.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_leafs.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_monkey.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_monkey.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_motorcycle.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_motorcycle.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_mount_huang.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_mount_huang.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_namaste.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_namaste.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_nanjing.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_nanjing.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_nightscape.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_nightscape.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_overcast.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_overcast.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_party_time.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_party_time.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_plants.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_plants.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_rakhi.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_rakhi.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_red_fort.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_red_fort.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_republic_day.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_republic_day.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_shanghai.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_shanghai.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_sunrise_sunset.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_sunrise_sunset.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_airplane.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_airplane.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_black_cat.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_black_cat.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_branch_bird.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_branch_bird.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_cable_car.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_cable_car.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_climb.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_climb.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_flying_bird.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_flying_bird.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_leaf.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_leaf.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_1.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_1.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_2.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_2.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_3.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_3.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_4.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_4.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_5.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_5.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_7.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_7.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_8.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_text_8.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_super_moon_window.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_super_moon_window.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_suzhou.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_suzhou.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_suzhou_gardens.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_suzhou_gardens.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_taj_mahal.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_taj_mahal.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_temple_of_heaven.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_temple_of_heaven.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_the_palace_museum.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_the_palace_museum.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_the_potala_palace.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_the_potala_palace.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_the_summer_palace.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_the_summer_palace.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_the_terracotta_army.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_the_terracotta_army.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_tianjin.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_tianjin.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_tutuk.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_tutuk.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_underwater.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_underwater.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_victoria_harbor.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_victoria_harbor.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_west_lake.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_west_lake.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_wuhan.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_wuhan.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/ic_wp_zhang_jia_jie.webp:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_wp_zhang_jia_jie.webp \
+    vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomi/watermark/noise_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/noise_logo.png \
     vendor/xiaomi/degas/proprietary/odm/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomiSceneDetection.xml \
     vendor/xiaomi/degas/proprietary/odm/etc/cust_color.xml:$(TARGET_COPY_OUT_ODM)/etc/cust_color.xml \
     vendor/xiaomi/degas/proprietary/odm/etc/df_default.xml:$(TARGET_COPY_OUT_ODM)/etc/df_default.xml \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/cct_pcc.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLutInfo.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_0.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_1.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_10.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_11.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_12.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_13.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_14.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_15.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_16.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_17.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_18.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_19.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_2.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_20.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_21.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_21.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_22.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_22.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_23.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_23.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_24.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_24.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_25.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_25.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_26.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_26.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_27.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_27.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_28.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_28.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_29.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_29.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_3.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_30.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_30.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_4.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_5.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_6.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_7.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_8.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_41_02_0b_dsc_vdo/miLut_9.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/cct_pcc.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLutInfo.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_0.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_1.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_10.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_11.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_12.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_13.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_14.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_15.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_16.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_17.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_18.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_19.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_2.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_20.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_21.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_21.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_22.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_22.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_23.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_23.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_24.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_24.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_25.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_25.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_26.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_26.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_27.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_27.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_28.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_28.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_29.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_29.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_3.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_30.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_30.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_4.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_5.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_6.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_7.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_8.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n11a_42_02_0a_dsc_vdo/miLut_9.txt \
-    vendor/xiaomi/degas/proprietary/odm/etc/dsi_n11a_41_02_0b_dsc_vdo_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_n11a_41_02_0b_dsc_vdo_mi.xml \
-    vendor/xiaomi/degas/proprietary/odm/etc/dsi_n11a_42_02_0a_dsc_vdo_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_n11a_42_02_0a_dsc_vdo_mi.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/OD_Lut.bin:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/OD_Lut.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/cct_pcc.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLutInfo.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_0.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_1.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_10.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_11.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_12.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_13.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_14.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_15.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_16.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_17.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_18.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_19.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_2.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_20.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_21.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_21.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_22.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_22.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_23.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_23.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_24.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_24.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_25.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_25.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_26.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_26.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_27.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_27.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_28.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_28.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_29.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_29.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_3.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_30.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_30.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_4.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_5.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_6.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_7.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_8.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_36_02_0b_dsc_cmd/miLut_9.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/OD_Lut.bin:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/OD_Lut.bin \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/cct_pcc.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLutInfo.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_0.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_1.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_10.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_11.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_12.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_13.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_14.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_15.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_16.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_17.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_18.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_19.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_2.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_20.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_21.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_21.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_22.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_22.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_23.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_23.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_24.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_24.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_25.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_25.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_26.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_26.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_27.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_27.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_28.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_28.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_29.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_29.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_3.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_30.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_30.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_4.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_5.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_6.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_7.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_8.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_n12a_42_02_0a_dsc_cmd/miLut_9.txt \
+    vendor/xiaomi/degas/proprietary/odm/etc/dsi_n12a_36_02_0b_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_n12a_36_02_0b_dsc_cmd_mi.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/dsi_n12a_42_02_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_n12a_42_02_0a_dsc_cmd_mi.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
     vendor/xiaomi/degas/proprietary/odm/etc/init/display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/display.rc \
     vendor/xiaomi/degas/proprietary/odm/etc/init/vendor.xiaomi.hardware.aidl.mtdservice-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.aidl.mtdservice-miteeservice.rc \
-    vendor/xiaomi/degas/proprietary/odm/etc/init/vendor.xiaomi.hardware.mfidoca-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mfidoca-miteeservice.rc \
     vendor/xiaomi/degas/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay-miteeservice.rc \
+    vendor/xiaomi/degas/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature-service.rc \
     vendor/xiaomi/degas/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc \
     vendor/xiaomi/degas/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
-    vendor/xiaomi/degas/proprietary/odm/etc/n11a_41_02_0b_dsc_vdo_cust_silky_brightness.xml:$(TARGET_COPY_OUT_ODM)/etc/n11a_41_02_0b_dsc_vdo_cust_silky_brightness.xml \
-    vendor/xiaomi/degas/proprietary/odm/etc/n11a_41_02_0b_dsc_vdo_pq.xml:$(TARGET_COPY_OUT_ODM)/etc/n11a_41_02_0b_dsc_vdo_pq.xml \
-    vendor/xiaomi/degas/proprietary/odm/etc/n11a_42_02_0a_dsc_vdo_cust_silky_brightness.xml:$(TARGET_COPY_OUT_ODM)/etc/n11a_42_02_0a_dsc_vdo_cust_silky_brightness.xml \
-    vendor/xiaomi/degas/proprietary/odm/etc/n11a_42_02_0a_dsc_vdo_pq.xml:$(TARGET_COPY_OUT_ODM)/etc/n11a_42_02_0a_dsc_vdo_pq.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/n12a_36_02_0b_dsc_cmd_pq.xml:$(TARGET_COPY_OUT_ODM)/etc/n12a_36_02_0b_dsc_cmd_pq.xml \
+    vendor/xiaomi/degas/proprietary/odm/etc/n12a_42_02_0a_dsc_cmd_pq.xml:$(TARGET_COPY_OUT_ODM)/etc/n12a_42_02_0a_dsc_cmd_pq.xml \
     vendor/xiaomi/degas/proprietary/odm/etc/sensors/lightSensorCali.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorCali.json \
     vendor/xiaomi/degas/proprietary/odm/etc/sensors/lightSensorConfig.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorConfig.json \
-    vendor/xiaomi/degas/proprietary/odm/etc/sensors/lightSensorConfigSec.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorConfigSec.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/sensors/lightSensorConfig_Stk_Csot.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorConfig_Stk_Csot.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/sensors/lightSensorConfig_Stk_Tianma.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/lightSensorConfig_Stk_Tianma.json \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-camera.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cclassvideo.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cgame.conf \
+    vendor/xiaomi/degas/proprietary/odm/etc/thermal-charge.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-charge.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-chg-only.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-class0.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-mgame.conf \
@@ -433,10 +695,51 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
     vendor/xiaomi/degas/proprietary/odm/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf \
+    vendor/xiaomi/degas/proprietary/odm/etc/touch/dynamicrate.json:$(TARGET_COPY_OUT_ODM)/etc/touch/dynamicrate.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/touch/gameturbotool-control.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-control.json \
+    vendor/xiaomi/degas/proprietary/odm/etc/touch/gameturbotool.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool.json \
+    vendor/xiaomi/degas/proprietary/odm/firmware/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_ODM)/firmware/Conf_MultipleTest.ini \
+    vendor/xiaomi/degas/proprietary/odm/firmware/degas_fts_thp_config.ini:$(TARGET_COPY_OUT_ODM)/firmware/degas_fts_thp_config.ini \
+    vendor/xiaomi/degas/proprietary/odm/firmware/degas_gtp_thp_config.ini:$(TARGET_COPY_OUT_ODM)/firmware/degas_gtp_thp_config.ini \
+    vendor/xiaomi/degas/proprietary/odm/firmware/film_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/film_model.tflite \
+    vendor/xiaomi/degas/proprietary/odm/firmware/focaltech_ts_fw_degas.bin:$(TARGET_COPY_OUT_ODM)/firmware/focaltech_ts_fw_degas.bin \
+    vendor/xiaomi/degas/proprietary/odm/firmware/glove_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/glove_model.tflite \
+    vendor/xiaomi/degas/proprietary/odm/firmware/goodix_cfg_group_degas.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_cfg_group_degas.bin \
+    vendor/xiaomi/degas/proprietary/odm/firmware/goodix_cfg_group_degas_nowater.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_cfg_group_degas_nowater.bin \
+    vendor/xiaomi/degas/proprietary/odm/firmware/goodix_firmware_degas.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_firmware_degas.bin \
+    vendor/xiaomi/degas/proprietary/odm/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_ODM)/firmware/goodix_test_limits_255.csv \
+    vendor/xiaomi/degas/proprietary/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/firmware/water_check.tflite \
     vendor/xiaomi/degas/proprietary/system/etc/public.libraries-mtk.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-mtk.txt \
     vendor/xiaomi/degas/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/xiaomi/degas/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/degas/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/AIHDR.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/AIHDR.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR270*480.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR270*480.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR288*640.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR288*640.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR360*640.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR360*640.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR376*896.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR376*896.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR480*864.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR480*864.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR486*864.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR486*864.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR504*896.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR504*896.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR540*960.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR540*960.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/SR720*1280.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR720*1280.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_1088p_pre.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_1088p_pre.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_1088p_pro.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_1088p_pro.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_1088p_q0.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_1088p_q0.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_1088p_q1.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_1088p_q1.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_736p_pre.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_736p_pre.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_736p_pro.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_736p_pro.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_736p_q0.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_736p_q0.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_736p_q1.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_736p_q1.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mt6897_mc_1088x1920.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mt6897_mc_1088x1920.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mt6897_mc_736x1280.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mt6897_mc_736x1280.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mt6897_me_1088x1920.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mt6897_me_1088x1920.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mt6897_me_736x1280.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mt6897_me_736x1280.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mt6897_text_1088x1920.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mt6897_text_1088x1920.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/mt6897_text_736x1280.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mt6897_text_736x1280.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/object_detection.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/object_detection.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/x2_SR_dynamic.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/x2_SR_dynamic.dla \
+    vendor/xiaomi/degas/proprietary/vendor/data/model/x3_SR_dynamic.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/x3_SR_dynamic.dla \
     vendor/xiaomi/degas/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/audio_param/AudioParamOptions_mgvi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_mgvi.xml \
@@ -569,6 +872,47 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_hifi3.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
+    vendor/xiaomi/degas/proprietary/vendor/etc/bh3.dla:$(TARGET_COPY_OUT_VENDOR)/etc/bh3.dla \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/105_WindSing.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/105_WindSing.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/106_Lost.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/106_Lost.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/107_Central.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/107_Central.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/108_NorthernEurope.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/109_Rome.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/110_BlackGold.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/111_GreenOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/111_GreenOrange.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/112_CyberPunk.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/112_CyberPunk.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/113_BlackIce.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/113_BlackIce.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/121_Bleach.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/121_Bleach.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/122_Thriller.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/122_Thriller.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/123_TealOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/123_TealOrange.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/124_JapaneseStyle.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/124_JapaneseStyle.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/125_Latin.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/125_Latin.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/126_Fantasy2.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/126_Fantasy2.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/127_Creamy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/127_Creamy.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/128_Sepia.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/128_Sepia.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/129_Vivid.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/129_Vivid.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/130_Natural.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/130_Natural.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/131_Monochrome.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/131_Monochrome.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/132_MonochromeHighContrast.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/132_MonochromeHighContrast.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/133_MonochromeBrown.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/133_MonochromeBrown.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/134_MonochromeBlue.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/134_MonochromeBlue.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/135_Classical.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/135_Classical.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/136_Filene.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/136_Filene.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/137_GreenNight.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/137_GreenNight.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/138_LiteratureAndArt.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/138_LiteratureAndArt.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/139_OrangeHoney.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/139_OrangeHoney.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/140_Romance.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/140_Romance.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/141_FR500.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/141_FR500.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/142_FE250.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/142_FE250.png \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/IntellFocus_class_all.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/IntellFocus_class_all.dla \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/IntellFocus_class_human.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/IntellFocus_class_human.dla \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/IntellFocus_detect_1st.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/IntellFocus_detect_1st.dla \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/IntellFocus_saliency.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/IntellFocus_saliency.dla \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/IntellFocus_track_backbone.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/IntellFocus_track_backbone.dla \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/IntellFocus_track_head.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/IntellFocus_track_head.dla \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/af_class_all.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/af_class_all.dla \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/af_class_human.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/af_class_human.dla \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/af_classify.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/af_classify.dla \
@@ -578,9 +922,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/af_saliency.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/af_saliency.dla \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/af_track_backbone.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/af_track_backbone.dla \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/af_track_head.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/af_track_head.dla \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/beauty/libTrueSight.so:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty/libTrueSight.so \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/bokehParams.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bokehParams.json \
-    vendor/xiaomi/degas/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden \
-    vendor/xiaomi/degas/proprietary/vendor/etc/camera/gma_custom.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gma_custom.txt \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/ldc/libwa_widelens_undistort.so:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ldc/libwa_widelens_undistort.so \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/mimotion_c1b.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mimotion_c1b.bin \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/mimotion_c1w.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mimotion_c1w.bin \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/mimotion_f3b.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mimotion_f3b.bin \
@@ -589,10 +933,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/mimotion_f4w.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mimotion_f4w.bin \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/mimotion_f5b.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mimotion_f5b.bin \
     vendor/xiaomi/degas/proprietary/vendor/etc/camera/mimotion_f5w.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mimotion_f5w.bin \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/mt6897/gma_custom.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mt6897/gma_custom.txt \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/mt6985/gma_custom.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mt6985/gma_custom.txt \
+    vendor/xiaomi/degas/proprietary/vendor/etc/camera/mt6989/gma_custom.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mt6989/gma_custom.txt \
     vendor/xiaomi/degas/proprietary/vendor/etc/displayconfig/display_id_4627039422300187648.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
+    vendor/xiaomi/degas/proprietary/vendor/etc/genshin.dla:$(TARGET_COPY_OUT_VENDOR)/etc/genshin.dla \
     vendor/xiaomi/degas/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_1and1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_1and1.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
@@ -622,6 +970,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/vendor/etc/init.insmod.mt6897.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6897.cfg \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service.mitee.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
+    vendor/xiaomi/degas/proprietary/vendor/etc/init/android.hardware.graphics.allocator-V1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V1-service-mediatek.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.2-service.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/android.hardware.identity@5.0-service.mitee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity@5.0-service.mitee.rc \
@@ -641,8 +990,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/init.gps_pwr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_pwr.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/init.gps_scp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_scp.rc \
+    vendor/xiaomi/degas/proprietary/vendor/etc/init/init.thermal_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_core.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/init.vtservice_aidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_aidl.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
+    vendor/xiaomi/degas/proprietary/vendor/etc/init/miface.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/miface.rc \
+    vendor/xiaomi/degas/proprietary/vendor/etc/init/miface_start_with_system_boot.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/miface_start_with_system_boot.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/miteelog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/miteelog.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/mtk_lbs_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_lbs_service.rc \
@@ -656,22 +1008,70 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
+    vendor/xiaomi/degas/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/degas/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
-    vendor/xiaomi/degas/proprietary/vendor/etc/misound_res_headphone.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_headphone.bin \
-    vendor/xiaomi/degas/proprietary/vendor/etc/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk.bin \
     vendor/xiaomi/degas/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/xiaomi/degas/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
+    vendor/xiaomi/degas/proprietary/vendor/etc/permissions/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/permissions/android.hardware.identity_credential.mitee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.identity_credential.mitee.xml \
+    vendor/xiaomi/degas/proprietary/vendor/etc/permissions/camera_extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/camera_extensions.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/pq_flag.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pq_flag.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/degas/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
     vendor/xiaomi/degas/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
+    vendor/xiaomi/degas/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    vendor/xiaomi/degas/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
+    vendor/xiaomi/degas/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/252252d2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/252252d2.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/399e7759.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/4bcd7fc4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/4bcd7fc4.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/6d4bcacf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/6d4bcacf.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/75680d2e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/75680d2e.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/c44cc0c0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c44cc0c0.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c90bc37d.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/d52df039.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/d52df039.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/e071171e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/e071171e.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/ed39abd0.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/facacbc6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/facacbc6.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
+    vendor/xiaomi/degas/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/xiaomi/degas/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/degas/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/degas/proprietary/vendor/etc/smartpa_param/AW_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_DSP.bin \
     vendor/xiaomi/degas/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/disable_thermal_temp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal_temp.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/disable_throttling.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_throttling.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/fix_ttj_85.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/fix_ttj_85.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/fix_ttj_95.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/fix_ttj_95.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/thermal_mtbf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_mtbf.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/thermal_policy_00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_00.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/thermal_policy_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_01.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/thermal_policy_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_02.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/thermal_policy_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_03.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/thermal_policy_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermal/thermal_policy_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_09.conf \
+    vendor/xiaomi/degas/proprietary/vendor/etc/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermalbreakboostconfig.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/degas/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     vendor/xiaomi/degas/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
@@ -688,25 +1088,869 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/vendor/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_acf.bin \
     vendor/xiaomi/degas/proprietary/vendor/firmware/connfem.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/connfem.cfg \
     vendor/xiaomi/degas/proprietary/vendor/firmware/conninfra.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/conninfra.cfg \
-    vendor/xiaomi/degas/proprietary/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw.bin \
-    vendor/xiaomi/degas/proprietary/vendor/firmware/goodix_cfg_group_degas.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group_degas.bin \
-    vendor/xiaomi/degas/proprietary/vendor/firmware/goodix_firmware_degas.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_degas.bin \
-    vendor/xiaomi/degas/proprietary/vendor/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_test_limits_255.csv \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_cfg_6878v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_cfg_6878v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_cfg_6886v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_cfg_6886v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_cfg_6897v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_cfg_6897v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_cfg_6985v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_cfg_6985v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_cfg_6989v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_cfg_6989v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_firmware_6878v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_firmware_6878v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_firmware_6886v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_firmware_6886v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_firmware_6897v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_firmware_6897v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_firmware_6985v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_firmware_6985v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9895_firmware_6989v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_firmware_6989v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2280.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2300.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6833v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6853v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6855v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6855v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6873v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2280.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2300.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6878v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6878v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6879v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6879v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6893v02.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v02.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6893v03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v03.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6893v04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v04.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6893v05.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6893v05.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6895v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_cfg_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6983v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2280.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2300.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6833v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6853v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6855v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6855v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6873v00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6873v00.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2280.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2300.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6878v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6878v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6879v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6879v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6893v02.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v02.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6893v03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v03.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6893v04.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v04.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6893v05.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6893v05.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6895v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9896s_firmware_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6983v01.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9916_cfg_6985v21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9916_cfg_6985v21.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/gt9916_firmware_6985v21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9916_firmware_6985v21.bin \
     vendor/xiaomi/degas/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
     vendor/xiaomi/degas/proprietary/vendor/firmware/lib3a.ccu_dummy:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu_dummy \
     vendor/xiaomi/degas/proprietary/vendor/firmware/mali_csffw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mali_csffw.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6627_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_coeff.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6627_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_patch.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6630_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_coeff.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6630_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_patch.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6630_fm_v2_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_coeff.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6630_fm_v2_coeff_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_coeff_tx.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6630_fm_v2_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_patch.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6630_fm_v2_patch_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_patch_tx.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6632_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_coeff.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6632_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_patch.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
     vendor/xiaomi/degas/proprietary/vendor/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/soc7_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_bt_1_1_hdr.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/soc7_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_bt_1a_1_hdr.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/soc7_0_ram_bt_1b_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_bt_1b_1_hdr.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/soc7_0_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_mcu_1_1_hdr.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/soc7_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_mcu_1a_1_hdr.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/soc7_0_ram_mcu_1b_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc7_0_ram_mcu_1b_1_hdr.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/soc_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_coeff.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/st_fts_L11.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/st_fts_L11.ftb \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/st_fts_L11a.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/st_fts_L11a.ftb \
     vendor/xiaomi/degas/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/0_click_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/101_offlineCountdown_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/102_sceneBombInjury_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/103_sceneBomb_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/104_doorOpen_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/106_sceneStep_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/107_crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/107_crawl_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/108_scopeOn_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/109_scopeOff_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/10_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/110_magazineQuick_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/111_grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/111_grenade_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/112_sceneGetshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/113_grenadeExplosion_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/114_punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/114_punch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/115_pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/115_pan_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/116_bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/116_bandage_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/118_sceneJump_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/119_vehiclePlane_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/11_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/120_sceneOpenparachute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/121_sceneCloseparachute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/122_vehicleCollision_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/123_vehicleBuggy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/124_vehicleDacia_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/125_vehicleMoto_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/126_firearmsAkm_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/127_firearmsM16a4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/128_firearmsAwm_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/12_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/130_firearmsMini14_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/131_firearmsVss_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/132_firearmsQbz_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/133_firearmsUmp9_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/134_firearmsDp28_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/135_firearmsS1897_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/137_firearmsP18c_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/13_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/140_cfmKillOne_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/141_cfmHeadshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/142_cfmMultiKill_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/143_cfmKillOneStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/144_cfmHeadshotStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/145_cfmMultiKillStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/146_cfmWeaponGrenadeExplode_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/147_cfmWeaponGrenadeKillOne_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/148_cfmImpactFleshNormal_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/149_cfmWeaponC4Installed_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/14_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/150_cfmHeroAppear_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/151_cfmUIRewardOpenBox_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/152_cfmUIRewardTask_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/153_cfmWeaponBLTShoot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/154_Atlantis_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/155_DigitalUniverse_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/156_Reveries_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/157_fodMotionTriang_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/158_fodMotionFlare_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/159_fodMotionRipple_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/15_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/160_fodMotionSpiral_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/161_gameboxLaunch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/162_GestureBackPull_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/163_GestureBackRelease_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/164_alert_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/164_alert_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/165_feedbackNegativeLight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/166_feedbackNeutral_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/167_feedbackPositive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/168_fingerprintRecord_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/169_lockdown_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/16_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/170_slidingDamping_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/171_todoAlldone_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/172_uninstallAnimationIcon_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/173_signalButtonHighlight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/174_signalButtonNegative_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/175_signalButton_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/176_signalClockHigh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/177_signalClock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/178_signalClockUnit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/179_signalInputbox_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/17_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/180_signalKeyHigh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/181_signalKeyUnit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/182_signalListHighlight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/183_signalList_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/183_signalList_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/184_signalPicker_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/185_signalPopup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/186_signalSeekbar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/187_signalSwitch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/188_signalTab_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/189_signalText_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/189_signalText_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/18_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/190_signalTransitionLight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/191_signalTransition_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/192_hapticsVideo_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/19_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/201_BoundaryBounce_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/201_BoundaryBounce_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/202_BoundaryBottom_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/202_BoundaryBottom_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/203_BoundaryTop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/203_BoundaryTop_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/204_SlideTag_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/204_SlideTag_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/205_SuperPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/205_SuperPositive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/206_Positive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/206_Positive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/207_Negative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/207_Negative_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/208_Mute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/208_Mute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/209_ScreenLock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/209_ScreenLock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/20_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/210_FingerprintUnlock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/210_FingerprintUnlock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/211_Charge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/211_Charge_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/212_NotificationCleanup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/212_NotificationCleanup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/213_ProcessCleanup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/213_ProcessCleanup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/214_APPUninstallation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/214_APPUninstallation_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/215_GameBoxStartup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/215_GameBoxStartup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/216_EdittingMode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/216_EdittingMode_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/217_CameraShutter_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/217_CameraShutter_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/23_Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/23_Candy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/24_Carousel_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/25_Celesta_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/26_Childhood_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/27_Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/27_Country_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/28_Cowboy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/2_tick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/30_Fairyland_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/31_Fantasy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/32_FieldTrip_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/33_Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/33_Glee_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/35_IceLatte_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/36_KungFu_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/38_Lollipop_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/39_MiMix2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/3_thud_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/40_Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/40_Mi_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/41_MiHouse_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/42_MiJazz_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/43_MiRemix_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/44_MountainSpring_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/45_Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/45_Orange_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/46_WindChime_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/47_SpaceAge_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/48_ToyRobot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/49_Vigor_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/4_pop_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/50_Bottle_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/51_Bubble_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/521_AcousticGuitar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/52_Bullfrog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/53_Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/53_Burst_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/54_Chirp_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/55_Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/55_Clank_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/56_Crystal_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/57_FadeIn_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/58_FadeOut_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/59_Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/59_Flute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/5_heavyClick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/60_Fresh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/61_Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/61_Frog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/62_Guitar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/63_Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/63_Harp_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/64_IncomingMessage_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/65_MessageSent_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/66_Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/66_Moment_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/67_NotificationXylophone_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/68_Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/68_Potion_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/69_Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/69_Radar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/6_ringTone1_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/70_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/70_Spring_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/71_Swoosh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/72_GestureUpSlide_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/73_fodMotionPlanet_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/74_ChargeWire_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/75_ChargeWireless_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/76_UnlockFailed_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/77_fodMotion1_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/78_fodMotion2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/79_fodMotion3_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/7_ringTone2_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/80_fodMotion4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/81_fodMotionAurora_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/82_FaceIDWrong2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/83_uninstallAnimation_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/84_uninstallDialog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/85_screenshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/86_lockscreenCameraEntry_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/87_launcherEdit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/88_launcherIconSelection_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/8_ringTone3_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/90_taskCleanAll_Rtp.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/91_newIconFolder_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/92_notificationRemove_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/93_notificationCleanall_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/96_nfcCard_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/98_nfcCardSlow_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/99_POCO_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/99_POCO_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_168/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_168/9_ringTone4_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/0_click_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/101_offlineCountdown_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/102_sceneBombInjury_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/103_sceneBomb_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/104_doorOpen_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/106_sceneStep_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/107_crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/107_crawl_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/108_scopeOn_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/109_scopeOff_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/10_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/110_magazineQuick_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/111_grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/111_grenade_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/112_sceneGetshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/113_grenadeExplosion_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/114_punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/114_punch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/115_pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/115_pan_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/116_bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/116_bandage_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/118_sceneJump_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/119_vehiclePlane_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/11_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/120_sceneOpenparachute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/121_sceneCloseparachute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/122_vehicleCollision_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/123_vehicleBuggy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/124_vehicleDacia_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/125_vehicleMoto_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/126_firearmsAkm_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/127_firearmsM16a4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/128_firearmsAwm_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/12_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/130_firearmsMini14_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/131_firearmsVss_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/132_firearmsQbz_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/133_firearmsUmp9_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/134_firearmsDp28_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/135_firearmsS1897_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/137_firearmsP18c_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/13_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/140_cfmKillOne_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/141_cfmHeadshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/142_cfmMultiKill_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/143_cfmKillOneStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/144_cfmHeadshotStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/145_cfmMultiKillStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/146_cfmWeaponGrenadeExplode_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/147_cfmWeaponGrenadeKillOne_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/148_cfmImpactFleshNormal_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/149_cfmWeaponC4Installed_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/14_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/150_cfmHeroAppear_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/151_cfmUIRewardOpenBox_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/152_cfmUIRewardTask_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/153_cfmWeaponBLTShoot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/154_Atlantis_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/155_DigitalUniverse_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/156_Reveries_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/157_fodMotionTriang_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/158_fodMotionFlare_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/159_fodMotionRipple_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/15_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/160_fodMotionSpiral_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/161_gameboxLaunch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/162_GestureBackPull_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/163_GestureBackRelease_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/164_alert_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/164_alert_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/165_feedbackNegativeLight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/166_feedbackNeutral_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/167_feedbackPositive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/168_fingerprintRecord_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/169_lockdown_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/16_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/170_slidingDamping_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/171_todoAlldone_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/172_uninstallAnimationIcon_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/173_signalButtonHighlight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/174_signalButtonNegative_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/175_signalButton_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/176_signalClockHigh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/177_signalClock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/178_signalClockUnit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/179_signalInputbox_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/17_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/180_signalKeyHigh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/181_signalKeyUnit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/182_signalListHighlight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/183_signalList_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/183_signalList_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/184_signalPicker_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/185_signalPopup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/186_signalSeekbar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/187_signalSwitch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/188_signalTab_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/189_signalText_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/189_signalText_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/18_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/190_signalTransitionLight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/191_signalTransition_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/192_hapticsVideo_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/19_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/201_BoundaryBounce_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/201_BoundaryBounce_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/202_BoundaryBottom_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/202_BoundaryBottom_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/203_BoundaryTop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/203_BoundaryTop_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/204_SlideTag_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/204_SlideTag_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/205_SuperPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/205_SuperPositive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/206_Positive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/206_Positive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/207_Negative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/207_Negative_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/208_Mute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/208_Mute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/209_ScreenLock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/209_ScreenLock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/20_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/210_FingerprintUnlock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/210_FingerprintUnlock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/211_Charge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/211_Charge_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/212_NotificationCleanup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/212_NotificationCleanup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/213_ProcessCleanup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/213_ProcessCleanup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/214_APPUninstallation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/214_APPUninstallation_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/215_GameBoxStartup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/215_GameBoxStartup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/216_EdittingMode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/216_EdittingMode_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/217_CameraShutter_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/217_CameraShutter_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/23_Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/23_Candy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/24_Carousel_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/25_Celesta_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/26_Childhood_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/27_Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/27_Country_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/28_Cowboy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/2_tick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/30_Fairyland_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/31_Fantasy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/32_FieldTrip_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/33_Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/33_Glee_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/35_IceLatte_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/36_KungFu_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/38_Lollipop_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/39_MiMix2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/3_thud_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/40_Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/40_Mi_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/41_MiHouse_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/42_MiJazz_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/43_MiRemix_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/44_MountainSpring_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/45_Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/45_Orange_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/46_WindChime_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/47_SpaceAge_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/48_ToyRobot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/49_Vigor_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/4_pop_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/50_Bottle_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/51_Bubble_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/521_AcousticGuitar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/52_Bullfrog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/53_Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/53_Burst_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/54_Chirp_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/55_Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/55_Clank_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/56_Crystal_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/57_FadeIn_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/58_FadeOut_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/59_Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/59_Flute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/5_heavyClick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/60_Fresh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/61_Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/61_Frog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/62_Guitar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/63_Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/63_Harp_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/64_IncomingMessage_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/65_MessageSent_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/66_Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/66_Moment_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/67_NotificationXylophone_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/68_Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/68_Potion_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/69_Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/69_Radar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/6_ringTone1_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/70_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/70_Spring_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/71_Swoosh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/72_GestureUpSlide_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/73_fodMotionPlanet_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/74_ChargeWire_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/75_ChargeWireless_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/76_UnlockFailed_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/77_fodMotion1_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/78_fodMotion2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/79_fodMotion3_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/7_ringTone2_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/80_fodMotion4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/81_fodMotionAurora_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/82_FaceIDWrong2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/83_uninstallAnimation_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/84_uninstallDialog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/85_screenshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/86_lockscreenCameraEntry_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/87_launcherEdit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/88_launcherIconSelection_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/8_ringTone3_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/90_taskCleanAll_Rtp.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/91_newIconFolder_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/92_notificationRemove_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/93_notificationCleanall_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/96_nfcCard_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/98_nfcCardSlow_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/99_POCO_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/99_POCO_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_170/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_170/9_ringTone4_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/0_click_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/101_offlineCountdown_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/102_sceneBombInjury_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/103_sceneBomb_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/104_doorOpen_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/106_sceneStep_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/107_crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/107_crawl_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/108_scopeOn_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/109_scopeOff_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/10_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/110_magazineQuick_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/111_grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/111_grenade_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/112_sceneGetshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/113_grenadeExplosion_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/114_punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/114_punch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/115_pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/115_pan_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/116_bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/116_bandage_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/118_sceneJump_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/119_vehiclePlane_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/11_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/120_sceneOpenparachute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/121_sceneCloseparachute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/122_vehicleCollision_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/123_vehicleBuggy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/124_vehicleDacia_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/125_vehicleMoto_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/126_firearmsAkm_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/127_firearmsM16a4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/128_firearmsAwm_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/12_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/130_firearmsMini14_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/131_firearmsVss_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/132_firearmsQbz_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/133_firearmsUmp9_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/134_firearmsDp28_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/135_firearmsS1897_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/137_firearmsP18c_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/13_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/140_cfmKillOne_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/141_cfmHeadshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/142_cfmMultiKill_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/143_cfmKillOneStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/144_cfmHeadshotStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/145_cfmMultiKillStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/146_cfmWeaponGrenadeExplode_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/147_cfmWeaponGrenadeKillOne_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/148_cfmImpactFleshNormal_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/149_cfmWeaponC4Installed_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/14_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/150_cfmHeroAppear_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/151_cfmUIRewardOpenBox_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/152_cfmUIRewardTask_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/153_cfmWeaponBLTShoot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/154_Atlantis_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/155_DigitalUniverse_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/156_Reveries_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/157_fodMotionTriang_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/158_fodMotionFlare_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/159_fodMotionRipple_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/15_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/160_fodMotionSpiral_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/161_gameboxLaunch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/162_GestureBackPull_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/163_GestureBackRelease_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/164_alert_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/164_alert_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/165_feedbackNegativeLight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/166_feedbackNeutral_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/167_feedbackPositive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/168_fingerprintRecord_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/169_lockdown_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/16_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/170_slidingDamping_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/171_todoAlldone_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/172_uninstallAnimationIcon_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/173_signalButtonHighlight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/174_signalButtonNegative_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/175_signalButton_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/176_signalClockHigh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/177_signalClock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/178_signalClockUnit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/179_signalInputbox_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/17_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/180_signalKeyHigh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/181_signalKeyUnit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/182_signalListHighlight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/183_signalList_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/183_signalList_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/184_signalPicker_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/185_signalPopup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/186_signalSeekbar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/187_signalSwitch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/188_signalTab_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/189_signalText_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/189_signalText_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/18_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/190_signalTransitionLight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/191_signalTransition_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/192_hapticsVideo_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/19_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/201_BoundaryBounce_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/201_BoundaryBounce_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/202_BoundaryBottom_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/202_BoundaryBottom_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/203_BoundaryTop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/203_BoundaryTop_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/204_SlideTag_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/204_SlideTag_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/205_SuperPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/205_SuperPositive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/206_Positive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/206_Positive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/207_Negative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/207_Negative_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/208_Mute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/208_Mute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/209_ScreenLock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/209_ScreenLock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/20_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/210_FingerprintUnlock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/210_FingerprintUnlock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/211_Charge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/211_Charge_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/212_NotificationCleanup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/212_NotificationCleanup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/213_ProcessCleanup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/213_ProcessCleanup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/214_APPUninstallation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/214_APPUninstallation_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/215_GameBoxStartup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/215_GameBoxStartup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/216_EdittingMode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/216_EdittingMode_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/217_CameraShutter_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/217_CameraShutter_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/23_Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/23_Candy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/24_Carousel_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/25_Celesta_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/26_Childhood_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/27_Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/27_Country_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/28_Cowboy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/2_tick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/30_Fairyland_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/31_Fantasy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/32_FieldTrip_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/33_Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/33_Glee_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/35_IceLatte_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/36_KungFu_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/38_Lollipop_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/39_MiMix2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/3_thud_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/40_Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/40_Mi_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/41_MiHouse_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/42_MiJazz_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/43_MiRemix_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/44_MountainSpring_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/45_Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/45_Orange_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/46_WindChime_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/47_SpaceAge_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/48_ToyRobot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/49_Vigor_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/4_pop_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/50_Bottle_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/51_Bubble_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/521_AcousticGuitar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/52_Bullfrog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/53_Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/53_Burst_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/54_Chirp_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/55_Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/55_Clank_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/56_Crystal_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/57_FadeIn_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/58_FadeOut_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/59_Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/59_Flute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/5_heavyClick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/60_Fresh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/61_Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/61_Frog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/62_Guitar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/63_Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/63_Harp_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/64_IncomingMessage_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/65_MessageSent_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/66_Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/66_Moment_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/67_NotificationXylophone_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/68_Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/68_Potion_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/69_Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/69_Radar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/6_ringTone1_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/70_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/70_Spring_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/71_Swoosh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/72_GestureUpSlide_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/73_fodMotionPlanet_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/74_ChargeWire_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/75_ChargeWireless_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/76_UnlockFailed_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/77_fodMotion1_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/78_fodMotion2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/79_fodMotion3_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/7_ringTone2_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/80_fodMotion4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/81_fodMotionAurora_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/82_FaceIDWrong2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/83_uninstallAnimation_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/84_uninstallDialog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/85_screenshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/86_lockscreenCameraEntry_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/87_launcherEdit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/88_launcherIconSelection_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/8_ringTone3_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/90_taskCleanAll_Rtp.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/91_newIconFolder_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/92_notificationRemove_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/93_notificationCleanall_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/96_nfcCard_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/98_nfcCardSlow_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/99_POCO_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/99_POCO_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_172/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_172/9_ringTone4_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/0_click_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/101_offlineCountdown_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/102_sceneBombInjury_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/103_sceneBomb_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/104_doorOpen_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/106_sceneStep_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/107_crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/107_crawl_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/108_scopeOn_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/109_scopeOff_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/10_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/110_magazineQuick_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/111_grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/111_grenade_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/112_sceneGetshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/113_grenadeExplosion_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/114_punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/114_punch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/115_pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/115_pan_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/116_bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/116_bandage_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/118_sceneJump_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/119_vehiclePlane_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/11_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/120_sceneOpenparachute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/121_sceneCloseparachute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/122_vehicleCollision_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/123_vehicleBuggy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/124_vehicleDacia_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/125_vehicleMoto_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/126_firearmsAkm_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/127_firearmsM16a4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/128_firearmsAwm_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/12_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/130_firearmsMini14_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/131_firearmsVss_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/132_firearmsQbz_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/133_firearmsUmp9_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/134_firearmsDp28_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/135_firearmsS1897_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/137_firearmsP18c_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/13_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/140_cfmKillOne_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/141_cfmHeadshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/142_cfmMultiKill_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/143_cfmKillOneStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/144_cfmHeadshotStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/145_cfmMultiKillStrong_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/146_cfmWeaponGrenadeExplode_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/147_cfmWeaponGrenadeKillOne_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/148_cfmImpactFleshNormal_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/149_cfmWeaponC4Installed_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/14_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/150_cfmHeroAppear_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/151_cfmUIRewardOpenBox_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/152_cfmUIRewardTask_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/153_cfmWeaponBLTShoot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/154_Atlantis_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/155_DigitalUniverse_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/156_Reveries_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/157_fodMotionTriang_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/158_fodMotionFlare_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/159_fodMotionRipple_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/15_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/160_fodMotionSpiral_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/161_gameboxLaunch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/162_GestureBackPull_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/163_GestureBackRelease_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/164_alert_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/164_alert_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/165_feedbackNegativeLight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/166_feedbackNeutral_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/167_feedbackPositive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/168_fingerprintRecord_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/169_lockdown_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/16_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/170_slidingDamping_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/171_todoAlldone_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/172_uninstallAnimationIcon_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/173_signalButtonHighlight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/174_signalButtonNegative_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/175_signalButton_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/176_signalClockHigh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/177_signalClock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/178_signalClockUnit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/179_signalInputbox_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/17_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/180_signalKeyHigh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/181_signalKeyUnit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/182_signalListHighlight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/183_signalList_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/183_signalList_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/184_signalPicker_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/185_signalPopup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/186_signalSeekbar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/187_signalSwitch_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/188_signalTab_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/189_signalText_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/189_signalText_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/18_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/190_signalTransitionLight_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/191_signalTransition_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/192_hapticsVideo_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/19_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/201_BoundaryBounce_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/201_BoundaryBounce_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/202_BoundaryBottom_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/202_BoundaryBottom_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/203_BoundaryTop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/203_BoundaryTop_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/204_SlideTag_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/204_SlideTag_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/205_SuperPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/205_SuperPositive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/206_Positive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/206_Positive_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/207_Negative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/207_Negative_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/208_Mute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/208_Mute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/209_ScreenLock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/209_ScreenLock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/20_ringTone4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/210_FingerprintUnlock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/210_FingerprintUnlock_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/211_Charge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/211_Charge_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/212_NotificationCleanup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/212_NotificationCleanup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/213_ProcessCleanup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/213_ProcessCleanup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/214_APPUninstallation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/214_APPUninstallation_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/215_GameBoxStartup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/215_GameBoxStartup_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/216_EdittingMode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/216_EdittingMode_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/217_CameraShutter_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/217_CameraShutter_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/23_Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/23_Candy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/24_Carousel_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/25_Celesta_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/26_Childhood_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/27_Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/27_Country_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/28_Cowboy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/2_tick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/30_Fairyland_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/31_Fantasy_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/32_FieldTrip_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/33_Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/33_Glee_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/35_IceLatte_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/36_KungFu_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/38_Lollipop_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/39_MiMix2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/3_thud_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/40_Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/40_Mi_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/41_MiHouse_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/42_MiJazz_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/43_MiRemix_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/44_MountainSpring_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/45_Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/45_Orange_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/46_WindChime_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/47_SpaceAge_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/48_ToyRobot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/49_Vigor_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/4_pop_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/50_Bottle_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/51_Bubble_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/521_AcousticGuitar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/52_Bullfrog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/53_Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/53_Burst_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/54_Chirp_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/55_Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/55_Clank_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/56_Crystal_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/57_FadeIn_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/58_FadeOut_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/59_Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/59_Flute_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/5_heavyClick_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/60_Fresh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/61_Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/61_Frog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/62_Guitar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/63_Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/63_Harp_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/64_IncomingMessage_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/65_MessageSent_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/66_Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/66_Moment_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/67_NotificationXylophone_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/68_Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/68_Potion_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/69_Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/69_Radar_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/6_ringTone1_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/70_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/70_Spring_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/71_Swoosh_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/72_GestureUpSlide_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/73_fodMotionPlanet_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/74_ChargeWire_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/75_ChargeWireless_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/76_UnlockFailed_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/77_fodMotion1_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/78_fodMotion2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/79_fodMotion3_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/7_ringTone2_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/80_fodMotion4_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/81_fodMotionAurora_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/82_FaceIDWrong2_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/83_uninstallAnimation_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/84_uninstallDialog_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/85_screenshot_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/86_lockscreenCameraEntry_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/87_launcherEdit_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/88_launcherIconSelection_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/8_ringTone3_P_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/90_taskCleanAll_Rtp.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/91_newIconFolder_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/92_notificationRemove_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/93_notificationCleanall_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/96_nfcCard_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/98_nfcCardSlow_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/99_POCO_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/99_POCO_RTP.bin \
+    vendor/xiaomi/degas/proprietary/vendor/firmware/vib_173/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vib_173/9_ringTone4_P_RTP.bin \
     vendor/xiaomi/degas/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/xiaomi/degas/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/123af5d1-d6f5-cc54-f78fa19030b2e76a.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/123af5d1-d6f5-cc54-f78fa19030b2e76a.ta \
-    vendor/xiaomi/degas/proprietary/vendor/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta \
-    vendor/xiaomi/degas/proprietary/vendor/mitee/ta/3d08821c-33a6-11e6-a1fa089e01c83aa2.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/3d08821c-33a6-11e6-a1fa089e01c83aa2.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/4d573443-6a56-4272-ac6f2425af9ef9bb.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/4d573443-6a56-4272-ac6f2425af9ef9bb.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/59a4867c-9fe5-f7c2-b409a46bae6ff73e.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/59a4867c-9fe5-f7c2-b409a46bae6ff73e.ta \
-    vendor/xiaomi/degas/proprietary/vendor/mitee/ta/655a4b46-cd77-11ea-aafbf382a6988e7b.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/655a4b46-cd77-11ea-aafbf382a6988e7b.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/68bcd09d-4101-4c0a-9552ed0af9ae16b2.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/68bcd09d-4101-4c0a-9552ed0af9ae16b2.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/86f623f6-a299-4dfd-b560ffd3e5a62c29.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/86f623f6-a299-4dfd-b560ffd3e5a62c29.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/88ce8e6b-8646-4092-bb78faf5b55ff4df.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/88ce8e6b-8646-4092-bb78faf5b55ff4df.ta \
@@ -715,14 +1959,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/a3ba6512-6e0e-4065-93165e4a7d04ca08.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/a3ba6512-6e0e-4065-93165e4a7d04ca08.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/a734eed9-d6a1-4244-aa507c99719e7b7f.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/a734eed9-d6a1-4244-aa507c99719e7b7f.ta \
     vendor/xiaomi/degas/proprietary/vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta \
-    vendor/xiaomi/degas/proprietary/vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta \
-    vendor/xiaomi/degas/proprietary/vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta \
-    vendor/xiaomi/degas/proprietary/vendor/mitee/ta/f13010e0-2ae1-11e5-896a0002a5d5c51d.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/f13010e0-2ae1-11e5-896a0002a5d5c51d.ta
+    vendor/xiaomi/degas/proprietary/vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
 
 PRODUCT_PACKAGES += \
     APUWareApusysAidlServer \
     APUWareUtilsAidlServer \
     android.hardware.bluetooth.audio-impl-mediatek \
+    android.hardware.security.keymint-V3-ndk-v34 \
+    libzslselectorpool \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
@@ -753,10 +1997,11 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.gnss-impl \
     vendor.mediatek.hardware.nvram-impl \
     vendor.mediatek.hardware.videotelephony-impl \
-    vendor.xiaomi.hardware.bgservice@1.0-impl \
     lib3a.ae.pipe \
     lib3a.custom.shading.flow \
+    libADCSwitch \
     libAF \
+    libANS \
     libBasicModule \
     libDefaultFpsActor \
     libFrameRecord \
@@ -780,6 +2025,8 @@ PRODUCT_PACKAGES += \
     libaal_cust \
     libaal_key \
     libaal_sec \
+    libadpcmdec_mtk \
+    libaedv \
     libaibld.nn6 \
     libaimemc \
     libaispq \
@@ -789,8 +2036,6 @@ PRODUCT_PACKAGES += \
     libapu_mdw \
     libapu_mdw_batch \
     libapusys \
-    libarcsoft_hdr_detection \
-    libarcsoft_super_night_detection \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
     libaudio_aidl_conversion_common_ndk-v34 \
@@ -816,7 +2061,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_mtk_pure \
     libbt-vendor \
     libbwc \
-    libc++_shared \
     libcam.hal3a.custom.ae.HDRStateEvaluator \
     libcam.zoomoverridemgr \
     libcamalgo.WarpMapResizer \
@@ -828,7 +2072,6 @@ PRODUCT_PACKAGES += \
     libcamalgo.utility \
     libcamalgo.vsdofUtil \
     libcamalgo.warp \
-    libcamera_scene \
     libcameraloadcalibrationfiles \
     libcameraopt \
     libcameraplatforminfoxiaomi \
@@ -847,10 +2090,13 @@ PRODUCT_PACKAGES += \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
     libcodec2_soft_common-v34 \
+    libcodec2_soft_mtk_alacdec \
+    libcodec2_soft_mtk_imaadpcmdec \
+    libcodec2_soft_mtk_mp3dec \
+    libcodec2_soft_mtk_msadpcmdec \
     libcodec2_vndk-v34 \
     libcodec2_vpp_fa_plugin \
     libcodec2_vpp_frc_plugin \
-    libcodec2_vpp_mi_plugin \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
     libcom.xiaomi.attribute \
@@ -861,12 +2107,9 @@ PRODUCT_PACKAGES += \
     libcom.xiaomi.grallocutils \
     libcom.xiaomi.hwadapter.decoupleutil \
     libcom.xiaomi.hwadapter.postprocinterface \
+    libcom.xiaomi.ionutils \
     libcom.xiaomi.metadatautils \
     libcom.xiaomi.mivihal.cpupolicy \
-    libcom.xiaomi.mizone.cpupolicy \
-    libcom.xiaomi.mizone.decoupleutil \
-    libcom.xiaomi.mizone.postprocinterface \
-    libcom.xiaomi.mizone \
     libcom.xiaomi.pluginutils \
     libcom.xiaomi.sensorpolicy \
     libcom.xiaomi.signaltrigger \
@@ -879,6 +2122,7 @@ PRODUCT_PACKAGES += \
     libdisplayfeature \
     libdisplayfeatureservice \
     libdre \
+    libecoengine \
     libfeature.hdr10 \
     libfeaturepolicy \
     libfgauge_gm30 \
@@ -900,6 +2144,7 @@ PRODUCT_PACKAGES += \
     libhis_face_tracking \
     libhis_motion_tracker \
     libhwm \
+    libifcutils_mtk \
     libimagebuffer_wrapper \
     libion_mtk \
     libion_ulit \
@@ -910,15 +2155,15 @@ PRODUCT_PACKAGES += \
     libkeymint_V3 \
     libkeymint_remote_prov_support_V3 \
     libksensor \
+    libladder \
     libmbrainSDKv \
-    libmiSAT \
+    libmcve \
     libmiSATTranslate \
     libmialgo \
     libmialgo_ai_vision \
-    libmialgo_sd \
     libmialgo_video_seg_depth \
     libmialgoengine \
-    libmialgoenginecustom \
+    libmialgoengine_custom \
     libmibokeh_mt6873 \
     libmicamera_adapter \
     libmicamera_aidl_device \
@@ -926,19 +2171,18 @@ PRODUCT_PACKAGES += \
     libmicamera_aidl_utils \
     libmicamera_hal_core \
     libmicamjson \
+    libmiface \
     libmigpese@2.0 \
     libmipc \
     libmiphone_capture_bokeh_mono \
-    libmiphone_preview_bokeh \
     libmiphone_preview_bokeh_mono \
-    libmiphone_preview_depth \
     libmisight \
-    libmisound \
     libmisoundcrossfade \
     libmisoundfpsop \
+    libmisoundparser \
     libmispowerop \
     libmnetlink_v104 \
-    libmpbase \
+    libmp3dec_mtk \
     libmsbc_mtk \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
@@ -949,12 +2193,10 @@ PRODUCT_PACKAGES += \
     libmtkcam_fdWarpConvert \
     libmtkcam_fdsan \
     libmtkcam_fdsan_wrapper \
-    libmtkcam_feature_utils \
     libmtkcam_grallocutils_aidlv1helper \
     libmtkcam_hal_custom_state \
     libmtkcam_hal_custom_utils \
     libmtkcam_perfctrl_wrapper \
-    libmtkcam_resourcedecision_custom \
     libmtkconfig \
     libmtkconfigutils \
     libmtkcutils \
@@ -962,7 +2204,6 @@ PRODUCT_PACKAGES += \
     libmtkisp_metadata_v2 \
     libmtkisp_metadata_v3 \
     libmtklimiter_vendor \
-    libmtkltm \
     libmtkmipc-ril \
     libmtknetcap \
     libmtknetutils \
@@ -1008,6 +2249,7 @@ PRODUCT_PACKAGES += \
     libmvpuop_mtk_cv \
     libmvpuop_mtk_nn \
     libn3d_tuning \
+    libnir_neon_driver_ndk.mtk.vndk \
     libnotifyaudiohal \
     libnpagent \
     libnvram \
@@ -1026,13 +2268,13 @@ PRODUCT_PACKAGES += \
     libratconfig \
     librelight_only \
     libremosaic_wrapper \
-    librfs_warp \
+    librendercore \
     librilfusion \
     librt_extamp_intf \
     libscltm \
     libsfplugin_ccodec_utils-v34 \
     libsilkybrightnesscore \
-    libsn100u_fw \
+    libsn220u_fw \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libstagefright_bufferqueue_helper-v36 \
@@ -1137,10 +2379,6 @@ PRODUCT_PACKAGES += \
     libaiawb_moon_model \
     libaiawb_p1ggm \
     libaiawb_sun \
-    libaibc_tuning \
-    libaibc_tuning_p2 \
-    libaibc_tuning_p3 \
-    libaibc_tuning_p4 \
     libaicapturecore \
     libaidepth_tuning \
     libaiseg_cache \
@@ -1350,12 +2588,9 @@ PRODUCT_PACKAGES += \
     libmtkcam_exif \
     libmtkcam_externalisploader \
     libmtkcam_faceResultHandler \
+    libmtkcam_feature_utils \
     libmtkcam_grallocutils \
     libmtkcam_hal3a_provider \
-    libmtkcam_hal_aidl_common \
-    libmtkcam_hal_aidl_device \
-    libmtkcam_hal_aidl_provider \
-    libmtkcam_hal_aidl_utils \
     libmtkcam_hal_android_app_cbadaptor \
     libmtkcam_hal_android_common \
     libmtkcam_hal_android_device \
@@ -1413,6 +2648,7 @@ PRODUCT_PACKAGES += \
     libmtkcam_proc \
     libmtkcam_request_requlator \
     libmtkcam_resourcedecision \
+    libmtkcam_resourcedecision_custom \
     libmtkcam_salmgr \
     libmtkcam_sensorcontrol \
     libmtkcam_simager \
@@ -1431,6 +2667,7 @@ PRODUCT_PACKAGES += \
     libmtkcam_ulog \
     libmtkcam_zsl_customselector \
     libmtkcm_ipc_dummy \
+    libmtkltm \
     libneuralnetworks_sl_driver_mtk_prebuilt \
     libneuron_adapter_mgvi \
     libneuron_runtime.7 \
@@ -1445,7 +2682,7 @@ PRODUCT_PACKAGES += \
     mtk000_mipi_raw_IdxMgr \
     mtk000_mipi_raw_tuning \
     mtk_lbs_service-impl \
-    vendor.mediatek.hardware.apuware.apusys-V2-ndk \
+    sensors.touch.detect \
     vendor.mediatek.hardware.apuware.apusys-V3-ndk \
     vendor.mediatek.hardware.apuware.utils-V1-ndk-vendor \
     vendor.mediatek.hardware.apuware.utils@2.0-vendor \
@@ -1453,7 +2690,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.bluetooth.audio-V1-ndk \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.2 \
-    vendor.mediatek.hardware.camera.aovservice-V2-ndk \
     vendor.mediatek.hardware.camera.aovservice-V3-ndk \
     vendor.mediatek.hardware.camera.atms-V1-ndk \
     vendor.mediatek.hardware.camera.bgservice-V1-ndk \
@@ -1467,7 +2703,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.composer_ext@1.0 \
     vendor.mediatek.hardware.gnss-V1-ndk \
     vendor.mediatek.hardware.lbs-V1-ndk \
-    vendor.mediatek.hardware.mbrain-V1-ndk \
     vendor.mediatek.hardware.mbrain-V2-ndk \
     vendor.mediatek.hardware.mmagent-V1-ndk \
     vendor.mediatek.hardware.mmlpq-V3-ndk \
@@ -1512,18 +2747,20 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.pq_aidl-V2-ndk \
     vendor.mediatek.hardware.pq_aidl-V4-ndk \
-    vendor.mediatek.hardware.pq_aidl-V6-ndk \
     vendor.mediatek.hardware.pq_aidl-V7-ndk \
     vendor.mediatek.hardware.videotelephony-V1-ndk-vendor \
     vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk \
     vendor.xiaomi.hardware.aidlbgservice-V1-impl \
     vendor.xiaomi.hardware.aidlbgservice-V1-ndk \
+    vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
-    vendor.xiaomi.hardware.mfidoca-V1-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk \
     vendor.xiaomi.hardware.quickcamera-V1-ndk_platform \
+    vendor.xiaomi.hw.touchfeature-V1-ndk \
     vendor.xiaomi.sensor.citsensorservice-V1-ndk \
+    vendor.mediatek.hardware.audio-V1-ndk \
+    vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
     libapu_mdw_ext.mtk \
     libapuwareapusys.mtk \
     libapuwareapusys_v2.mtk \
@@ -1604,81 +2841,140 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.neuropilot.neuronservice-V1-ndk \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0 \
+    libadaptivehdr \
+    com.xiaomi.plugin.arcrawhdr \
     com.xiaomi.plugin.arcsoftsr \
+    com.xiaomi.plugin.asdasync \
+    com.xiaomi.plugin.asdmeta \
+    com.xiaomi.plugin.beautydeformation \
     com.xiaomi.plugin.capbokeh \
     com.xiaomi.plugin.capdepth \
     com.xiaomi.plugin.caphdr \
+    com.xiaomi.plugin.capspot \
     com.xiaomi.plugin.depurple \
-    com.xiaomi.plugin.hdr \
+    com.xiaomi.plugin.facealignpreview \
+    com.xiaomi.plugin.facebeautypreview \
+    com.xiaomi.plugin.filter \
+    com.xiaomi.plugin.gainmap \
+    com.xiaomi.plugin.gainmapPostProc \
+    com.xiaomi.plugin.heifedit \
+    com.xiaomi.plugin.hwhalproc \
     com.xiaomi.plugin.hwjpeg \
     com.xiaomi.plugin.hwproc \
+    com.xiaomi.plugin.hwstream \
+    com.xiaomi.plugin.idle \
+    com.xiaomi.plugin.jiganvideobokeh \
+    com.xiaomi.plugin.jiiganfrontbokeh \
+    com.xiaomi.plugin.jiiganfrontbokehstream \
+    com.xiaomi.plugin.jpegrAggr \
     com.xiaomi.plugin.ldc \
+    com.xiaomi.plugin.ldcpreview \
     com.xiaomi.plugin.memcpy \
     com.xiaomi.plugin.miaideblur \
     com.xiaomi.plugin.miaiie \
+    com.xiaomi.plugin.mialgoainr \
     com.xiaomi.plugin.mibokeh \
-    com.xiaomi.plugin.rawsuperlight \
-    com.xiaomi.plugin.rawsuperlight_front \
+    com.xiaomi.plugin.mideflicker \
+    com.xiaomi.plugin.midualbokehstream \
+    com.xiaomi.plugin.miellc \
+    com.xiaomi.plugin.mifrontaibokehstream \
+    com.xiaomi.plugin.mihisv1 \
+    com.xiaomi.plugin.mihisv2 \
+    com.xiaomi.plugin.mihisv3 \
+    com.xiaomi.plugin.mimotionvideo \
+    com.xiaomi.plugin.misat \
+    com.xiaomi.plugin.mivideonight \
+    com.xiaomi.plugin.movieeffect \
+    com.xiaomi.plugin.portraitrepair \
+    com.xiaomi.plugin.rawhdranchor \
+    com.xiaomi.plugin.rawsuperlight_turbofusion \
+    com.xiaomi.plugin.rawsuperlight_turbofusion_front \
+    com.xiaomi.plugin.remosaic \
     com.xiaomi.plugin.skinbeautifier \
+    com.xiaomi.plugin.sranchor \
     com.xiaomi.plugin.swflip \
+    com.xiaomi.plugin.swjpegencode \
+    com.xiaomi.plugin.videofilter \
+    com.xiaomi.plugin.watermark \
     displayfeature.default \
-    fingerprint.fpc_fod.default \
     fingerprint.goodix_fod.default \
-    libArcNetMtk \
+    libAncHumanVideoBokehV4 \
     libMiDispDevManager \
+    libMiVideoFilter \
     libTrueSight \
-    libadaptivehdr \
-    libalAILDC \
-    libalAI_Seg \
-    libalAI_Seg_CFR \
     libalCFR \
-    libalLDC \
     libalNN \
     libalNN_engine \
     libalNN_gpu \
-    libalhLDC \
     libanc_dc_base \
+    libanc_single_bokeh \
+    libanc_single_rt_bokeh \
     libarc.ion \
     libarcsoft_bokeh_high_dynamic_range \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_low_light_hdr \
-    libarcsoft_mf_superresolution \
+    libarcsoft_hdr_detection \
+    libarcsoft_hdr_raw \
+    libarcsoft_hdr_raw_grf \
+    libarcsoft_portrait_hdr_raw \
     libarcsoft_raw_sr \
-    libarcsoft_sn_mtk_apu \
-    libarcsoft_super_night_raw \
-    libarcsoft_super_night_raw_front \
+    libarcsoft_super_night_detection \
+    libarcsoft_turbo_fusion_raw_portrait_super_night \
+    libarcsoft_turbo_fusion_raw_super_night \
+    libarcsoft_turbo_hdr_detection \
+    libarcsoft_turbo_sr_detection \
+    libc++_shared \
+    libcamera_scene \
+    libcameraheif \
     libclient2slpi.notifier \
     libcolortempmode \
     libdisplaylog \
     libdither \
+    libdlrmsc \
+    libellv \
     libeyecare \
     libflatmode \
     libgf_hal \
     libhistprocess \
-    libmfido_mitee \
     libmiBrightness \
+    libmiSAT \
     libmiSensorCtrl \
     libmiXmlParser \
+    libmi_aialign_raw \
     libmi_dspp \
     libmiai_deblur \
     libmiaio_aio_seg \
+    libmialgo_ainr_v1 \
     libmialgo_aio_seg \
     libmialgo_depth \
     libmialgo_ds_nn \
+    libmialgo_ellc \
     libmialgo_ie_capture \
+    libmialgo_sd \
     libmialgo_utils \
+    libminikin.xiaomi \
     libmiocr \
     libmiphone_capture_bokeh \
     libmiphone_capture_depth \
     libmiphone_capture_mdbokeh \
+    libmiphone_preview_bokeh \
+    libmiphone_preview_depth \
+    libmiphone_preview_mdbokeh \
+    libmiphone_tsspot \
+    libmiremosaic \
     libmlipay_mitee \
     libmorpho_Depurple \
+    libmpbase \
     libmt_mitee \
     libomp \
     libpaperMode \
+    libportrait_repair_apu \
+    libremosaiclib \
+    librfs_warp \
     librhytheyecare \
     libsdr2hdr \
     libsre \
+    libtensorflowlite_touch_c \
+    libtouchreport \
+    libtouchsensor \
     libtruetone \
     libvideomode \
     libwa_widelens_undistort \
@@ -1712,16 +3008,17 @@ PRODUCT_PACKAGES += \
     manifest_mmlpq.xml \
     mapper.mediatek.xml \
     mtk_lbs_service.xml \
+    vendor.xiaomi.hardware.aidlbgservice-service.xml \
     vendor.xiaomi.hardware.bgservice@1.0-service.xml \
     vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
     manifest_vendor.xiaomi.hardware.aidl.mtdservice.xml \
-    manifest_vendor.xiaomi.hardware.mfidoca.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     vendor.xiaomi.sensor.citsensorservice.aidl.xml \
     batterysecret \
     ccci_mdinit \
     ccci_rpcd \
     conninfra_loader \
+    port_select.db \
     displayfeature \
     fuelgauged \
     fuelgauged_nvram \
@@ -1733,6 +3030,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@3.0-service.mitee \
+    mifaced \
     android.hardware.graphics.allocator-V2-service-mediatek.mt6897 \
     camerahalserver \
     mtkfusionrild \
@@ -1752,12 +3050,18 @@ PRODUCT_PACKAGES += \
     mtk_lbs_service \
     nvram_daemon \
     tee-supplicant \
+    thermal_core \
+    thermal_intf \
     volte_clientapi_ua \
+    wlan_assistant \
     vtservice \
-    fidoca_mitee \
+    ISP_mapping.db \
+    ISP_param.db \
+    vendor.xiaomi.hw.touchfeature-service \
     vendor.xiaomi.sensor.citsensorservice.aidl \
     mlipayd_mitee \
-    mtd_mitee
+    mtd_mitee \
+    toucheventcheck
 
 PRODUCT_PACKAGES += \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_ae_ParameterDB_ae_db \
@@ -1787,7 +3091,9 @@ PRODUCT_PACKAGES += \
     odm_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aov_ISP_info_db \
     vendor_bin_hw_android_hardware_graphics_allocator-V2-service-mediatek \
     vendor_bin_hw_camerahalserver \
-    vendor_etc_camera_gma_custom_xml \
+    vendor_etc_camera_mt6897_gma_custom_xml \
+    vendor_etc_camera_mt6985_gma_custom_xml \
+    vendor_etc_camera_mt6989_gma_custom_xml \
     vendor_lib64_egl_libGLES_mali_so \
     vendor_lib64_hw_audio_primary_mt6897_so \
     vendor_lib64_hw_android_hardware_graphics_allocator-V2-mediatek_so \
@@ -1871,10 +3177,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaiawb_moon_model_so \
     vendor_lib64_libaiawb_p1ggm_so \
     vendor_lib64_libaiawb_sun_so \
-    vendor_lib64_libaibc_tuning_so \
-    vendor_lib64_libaibc_tuning_p2_so \
-    vendor_lib64_libaibc_tuning_p3_so \
-    vendor_lib64_libaibc_tuning_p4_so \
     vendor_lib64_libaicapturecore_so \
     vendor_lib64_libaidepth_tuning_so \
     vendor_lib64_libaiseg_cache_so \
@@ -2084,12 +3386,9 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libmtkcam_exif_so \
     vendor_lib64_libmtkcam_externalisploader_so \
     vendor_lib64_libmtkcam_faceResultHandler_so \
+    vendor_lib64_libmtkcam_feature_utils_so \
     vendor_lib64_libmtkcam_grallocutils_so \
     vendor_lib64_libmtkcam_hal3a_provider_so \
-    vendor_lib64_libmtkcam_hal_aidl_common_so \
-    vendor_lib64_libmtkcam_hal_aidl_device_so \
-    vendor_lib64_libmtkcam_hal_aidl_provider_so \
-    vendor_lib64_libmtkcam_hal_aidl_utils_so \
     vendor_lib64_libmtkcam_hal_android_app_cbadaptor_so \
     vendor_lib64_libmtkcam_hal_android_common_so \
     vendor_lib64_libmtkcam_hal_android_device_so \
@@ -2147,6 +3446,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libmtkcam_proc_so \
     vendor_lib64_libmtkcam_request_requlator_so \
     vendor_lib64_libmtkcam_resourcedecision_so \
+    vendor_lib64_libmtkcam_resourcedecision_custom_so \
     vendor_lib64_libmtkcam_salmgr_so \
     vendor_lib64_libmtkcam_sensorcontrol_so \
     vendor_lib64_libmtkcam_simager_so \
@@ -2165,6 +3465,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libmtkcam_ulog_so \
     vendor_lib64_libmtkcam_zsl_customselector_so \
     vendor_lib64_libmtkcm_ipc_dummy_so \
+    vendor_lib64_libmtkltm_so \
     vendor_lib64_libneuralnetworks_sl_driver_mtk_prebuilt_so \
     vendor_lib64_libneuron_adapter_mgvi_so \
     vendor_lib64_libneuron_runtime_7_so \
