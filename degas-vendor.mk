@@ -714,15 +714,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/degas/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/degas/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
     vendor/xiaomi/degas/proprietary/vendor/data/model/AIHDR.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/AIHDR.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR270*480.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR270*480.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR288*640.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR288*640.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR360*640.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR360*640.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR376*896.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR376*896.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR480*864.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR480*864.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR486*864.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR486*864.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR504*896.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR504*896.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR540*960.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR540*960.dla \
-    vendor/xiaomi/degas/proprietary/vendor/data/model/SR720*1280.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR720*1280.dla \
     vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_1088p_pre.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_1088p_pre.dla \
     vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_1088p_pro.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_1088p_pro.dla \
     vendor/xiaomi/degas/proprietary/vendor/data/model/mimemc_2x_1088p_q0.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/mimemc_2x_1088p_q0.dla \
