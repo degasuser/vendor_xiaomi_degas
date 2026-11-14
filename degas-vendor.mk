@@ -2957,6 +2957,7 @@ PRODUCT_PACKAGES += \
     libomp \
     libpaperMode \
     libportrait_repair_apu \
+    libremosaic_wrapper-odm \
     libremosaiclib \
     librfs_warp \
     librhytheyecare \
