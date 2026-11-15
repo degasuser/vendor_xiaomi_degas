@@ -2533,7 +2533,6 @@ PRODUCT_PACKAGES += \
     libmmagent \
     libmml \
     libmmlpqImpl \
-    libmnl \
     libmtk_drvb \
     libmtkcam.atmseventmgr \
     libmtkcam.debugwrapper \
@@ -2696,7 +2695,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mbrain-V2-ndk \
     vendor.mediatek.hardware.mmagent-V1-ndk \
     vendor.mediatek.hardware.mmlpq-V3-ndk \
-    vendor.mediatek.hardware.mtkpower-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.assist-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.atci-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.cap-V1-ndk \
@@ -3331,7 +3329,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libmmagent_so \
     vendor_lib64_libmml_so \
     vendor_lib64_libmmlpqImpl_so \
-    vendor_lib64_libmnl_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libmtkcam_atmseventmgr_so \
     vendor_lib64_libmtkcam_debugwrapper_so \
