@@ -2676,9 +2676,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.utils-V1-ndk-vendor \
     vendor.mediatek.hardware.apuware.utils@2.0-vendor \
     vendor.mediatek.hardware.audio@8.1 \
-    vendor.mediatek.hardware.bluetooth.audio-V1-ndk \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.aovservice-V3-ndk \
     vendor.mediatek.hardware.camera.atms-V1-ndk \
     vendor.mediatek.hardware.camera.bgservice-V1-ndk \
@@ -2713,7 +2710,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.voice-V1-ndk \
     vendor.mediatek.hardware.netdagent-V1-ndk \
-    vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent-V1-ndk \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
@@ -2747,7 +2743,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.quickcamera-V1-ndk_platform \
     vendor.xiaomi.hw.touchfeature-V1-ndk \
     vendor.xiaomi.sensor.citsensorservice-V1-ndk \
-    vendor.mediatek.hardware.audio-V1-ndk \
     vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
     libapu_mdw_ext.mtk \
     libapuwareapusys.mtk \
