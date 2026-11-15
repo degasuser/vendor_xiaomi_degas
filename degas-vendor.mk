@@ -1954,6 +1954,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     APUWareApusysAidlServer \
     APUWareUtilsAidlServer \
+    android.frameworks.displayservice@1.0 \
     android.hardware.bluetooth.audio-impl-mediatek \
     android.hardware.security.keymint-V3-ndk-v34 \
     libzslselectorpool \
@@ -2117,7 +2118,7 @@ PRODUCT_PACKAGES += \
     libfeaturepolicy \
     libfgauge_gm30 \
     libfile_op \
-    libformatter \
+    libformatter-mtk \
     libfvaudio \
     libged \
     libgpud \
