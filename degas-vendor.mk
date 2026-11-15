@@ -2106,6 +2106,7 @@ PRODUCT_PACKAGES += \
     libcom.xiaomi.signaltrigger \
     libcomposer_ext \
     libconnfem \
+    libcppcose_rkp_V3 \
     libcustom_nvram \
     libcvsd_mtk \
     libdeflicker \
@@ -2173,6 +2174,7 @@ PRODUCT_PACKAGES += \
     libmisoundparser \
     libmispowerop \
     libmnetlink_v104 \
+    libmnl_mtk \
     libmp3dec_mtk \
     libmsbc_mtk \
     libmtk-fusion-ril-prop-vsim \

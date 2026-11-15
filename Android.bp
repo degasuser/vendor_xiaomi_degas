@@ -4910,6 +4910,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcppcose_rkp_V3",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcppcose_rkp_V3.so",
+            ],
+            shared_libs: [
+                "libcppbor_external",
+                "libcrypto",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libcustom_nvram",
     owner: "xiaomi",
     strip: {
@@ -6014,7 +6041,7 @@ cc_prebuilt_library_shared {
                 "libbase-v33",
                 "libbinder_ndk",
                 "libcppbor_external",
-                "libcppcose_rkp",
+                "libcppcose_rkp_V3",
                 "libcrypto",
                 "libkeymaster_portable",
                 "libjsoncpp",
@@ -6955,6 +6982,30 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libmnetlink_v104.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmnl_mtk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmnl_mtk.so",
             ],
             shared_libs: [
                 "libc++",
@@ -27571,6 +27622,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -33453,7 +33505,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "libcutils",
                 "libcppbor_external",
-                "libcppcose_rkp",
+                "libcppcose_rkp_V3",
                 "libc++",
                 "libc",
                 "libm",
@@ -33953,7 +34005,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/mnld",
             ],
             shared_libs: [
-                "libmnl",
+                "libmnl_mtk",
                 "libcurl",
                 "libcutils",
                 "libnvram",
